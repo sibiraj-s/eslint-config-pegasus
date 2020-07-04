@@ -25,7 +25,7 @@
 ### Install
 
 ```bash
-npm install eslint eslint-config-pegasus
+npm install eslint eslint-config-pegasus --save-dev
 ```
 
 ### Usage

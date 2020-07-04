@@ -1,0 +1,39 @@
+{
+  "name": "eslint-config-pegasus",
+  "version": "0.0.0",
+  "description": "Eslint shareable config with personalized defaults",
+  "author": "sibiraj-s",
+  "license": "MIT",
+  "repository": "https://github.com/sibiraj-s/eslint-config-pegasus.git",
+  "bugs": "https://github.com/sibiraj-s/eslint-config-pegasus/issues",
+  "homepage": "https://github.com/sibiraj-s/eslint-config-pegasus#readme",
+  "engines": {
+    "node": ">10"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "jest"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "pegasus"
+  ],
+  "files": [
+    "CHANGELOG.md",
+    "rules",
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.3",
+    "eslint": "^7.4.0",
+    "husky": "^4.2.5",
+    "jest": "^26.1.0",
+    "lint-staged": "^10.2.11"
+  }
+}

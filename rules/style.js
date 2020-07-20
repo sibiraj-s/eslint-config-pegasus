@@ -18,6 +18,10 @@ module.exports = {
     // https://eslint.org/docs/rules/no-multiple-empty-lines
     'no-multiple-empty-lines': ['error', { max: 1, maxBOF: 0, maxEOF: 0 }],
 
+    // disallow duplicate keys in object literals
+    // https://eslint.org/docs/rules/no-dupe-keys
+    'no-dupe-keys': 'error',
+
     // requires operator at the beginning of the line in multiline statements
     // https://eslint.org/docs/rules/operator-linebreak
     'operator-linebreak': ['error', 'before', { overrides: { '=': 'none' } }],

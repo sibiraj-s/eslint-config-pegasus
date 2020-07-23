@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-pegasus",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Eslint shareable config with personalized defaults",
   "author": "sibiraj-s",
   "license": "MIT",

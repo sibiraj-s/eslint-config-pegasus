@@ -1,2 +1,0 @@
-const code = 'first' +
-  'name';

@@ -14,7 +14,8 @@
   "scripts": {
     "lint": "eslint .",
     "pretest": "npm run lint",
-    "test": "jest"
+    "test": "jest",
+    "prepublishOnly": "npm run test"
   },
   "keywords": [
     "eslint",

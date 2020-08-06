@@ -99,6 +99,10 @@ module.exports = {
     // https://eslint.org/docs/rules/no-whitespace-before-property
     'no-whitespace-before-property': 'error',
 
+    // enforce consistent spacing inside braces
+    // https://eslint.org/docs/rules/object-curly-spacing
+    'object-curly-spacing': ['error', 'always'],
+
     // requires operator at the beginning of the line in multiline statements
     // https://eslint.org/docs/rules/operator-linebreak
     'operator-linebreak': ['error', 'before', { overrides: { '=': 'none' } }],

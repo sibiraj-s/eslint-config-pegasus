@@ -3,5 +3,5 @@ module.exports = {
     './rules/style',
     './rules/strict',
     './rules/es6',
-  ].map(require.resolve),  
+  ].map(require.resolve),
 };

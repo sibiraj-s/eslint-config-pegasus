@@ -39,6 +39,10 @@ module.exports = {
     // https://eslint.org/docs/rules/function-call-argument-newline
     'function-call-argument-newline': ['error', 'consistent'],
 
+    // require or disallow spacing between function identifiers and their invocations
+    // https://eslint.org/docs/rules/func-call-spacing
+    'func-call-spacing': ['error', 'never'],
+
     // specify the maximum length of a line in your program
     // https://eslint.org/docs/rules/max-len
     'max-len': ['error', 120, 2, {

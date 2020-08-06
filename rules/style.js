@@ -15,6 +15,10 @@ module.exports = {
       ArrayPattern: { minItems: 3 },
     }],
 
+    // disallow or enforce spaces inside of blocks after opening block and before closing block
+    // https://eslint.org/docs/rules/block-spacing
+    'block-spacing': ['error', 'always'],
+
     // require or disallow trailing commas
     // https://eslint.org/docs/rules/comma-dangle
     'comma-dangle': ['error', 'always-multiline'],

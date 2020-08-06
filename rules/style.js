@@ -23,6 +23,10 @@ module.exports = {
     // https://eslint.org/docs/rules/brace-style
     'brace-style': ['error', '1tbs', { allowSingleLine: true }],
 
+    // require CamelCase
+    // https://eslint.org/docs/rules/camelcase
+    'camelcase': ['error', { properties: 'never', ignoreDestructuring: false }],
+
     // require or disallow trailing commas
     // https://eslint.org/docs/rules/comma-dangle
     'comma-dangle': ['error', 'always-multiline'],

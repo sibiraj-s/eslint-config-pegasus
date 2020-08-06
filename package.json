@@ -31,10 +31,10 @@
     "eslint": "^7.0.0"
   },
   "devDependencies": {
-    "@types/jest": "^26.0.5",
-    "eslint": "^7.5.0",
+    "@types/jest": "^26.0.9",
+    "eslint": "^7.6.0",
     "husky": "^4.2.5",
-    "jest": "^26.1.0",
+    "jest": "^26.2.2",
     "lint-staged": "^10.2.11"
   }
 }

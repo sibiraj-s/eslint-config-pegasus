@@ -91,6 +91,10 @@ module.exports = {
     // https://eslint.org/docs/rules/no-trailing-spaces
     'no-trailing-spaces': 'error',
 
+    // disallow ternary operators when simpler alternatives exist
+    // https://eslint.org/docs/rules/no-unneeded-ternary
+    'no-unneeded-ternary': ['error', { defaultAssignment: false }],
+
     // requires operator at the beginning of the line in multiline statements
     // https://eslint.org/docs/rules/operator-linebreak
     'operator-linebreak': ['error', 'before', { overrides: { '=': 'none' } }],

@@ -1,5 +1,12 @@
 module.exports = {
   rules: {
+    // enforce line breaks between array elements
+    // https://eslint.org/docs/rules/array-element-newline
+    'array-element-newline': ['error', {
+      ArrayExpression: 'consistent',
+      ArrayPattern: { minItems: 3 },
+    }],
+
     // require or disallow trailing commas
     // https://eslint.org/docs/rules/comma-dangle
     'comma-dangle': ['error', 'always-multiline'],

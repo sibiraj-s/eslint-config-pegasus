@@ -43,7 +43,7 @@ module.exports = {
     // https://eslint.org/docs/rules/func-call-spacing
     'func-call-spacing': ['error', 'never'],
 
-    // enforce consistent indentation 
+    // enforce consistent indentation
     // https://eslint.org/docs/rules/indent
     'indent': ['error', 2, {
       SwitchCase: 1,
@@ -86,6 +86,10 @@ module.exports = {
     // disallow duplicate keys in object literals
     // https://eslint.org/docs/rules/no-dupe-keys
     'no-dupe-keys': 'error',
+
+    // disallow trailing whitespace at the end of lines
+    // https://eslint.org/docs/rules/no-trailing-spaces
+    'no-trailing-spaces': 'error',
 
     // requires operator at the beginning of the line in multiline statements
     // https://eslint.org/docs/rules/operator-linebreak

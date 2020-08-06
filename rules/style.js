@@ -1,5 +1,9 @@
 module.exports = {
   rules: {
+    // enforce line breaks after opening and before closing array
+    // https://eslint.org/docs/rules/array-bracket-newline
+    'array-bracket-newline': ['error', 'consistent'],
+
     // enforce line breaks between array elements
     // https://eslint.org/docs/rules/array-element-newline
     'array-element-newline': ['error', {

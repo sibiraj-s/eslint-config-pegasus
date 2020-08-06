@@ -4,6 +4,10 @@ module.exports = {
     // https://eslint.org/docs/rules/array-bracket-newline
     'array-bracket-newline': ['error', 'consistent'],
 
+    // disallow or enforce spaces inside of brackets
+    // https://eslint.org/docs/rules/array-bracket-spacing
+    'array-bracket-spacing': ['error', 'never'],
+
     // enforce line breaks between array elements
     // https://eslint.org/docs/rules/array-element-newline
     'array-element-newline': ['error', {

@@ -19,6 +19,10 @@ module.exports = {
     // https://eslint.org/docs/rules/block-spacing
     'block-spacing': ['error', 'always'],
 
+    // require Brace Style
+    // https://eslint.org/docs/rules/brace-style
+    'brace-style': ['error', '1tbs', { allowSingleLine: true }],
+
     // require or disallow trailing commas
     // https://eslint.org/docs/rules/comma-dangle
     'comma-dangle': ['error', 'always-multiline'],

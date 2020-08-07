@@ -123,6 +123,10 @@ module.exports = {
       asyncArrow: 'always',
     }],
 
+    // require spacing around infix operators
+    // https://eslint.org/docs/rules/space-infix-ops
+    'space-infix-ops': 'error',
+
     // Disallow or enforce spaces inside of parentheses
     // https://eslint.org/docs/rules/space-in-parens
     'space-in-parens': ['error', 'never'],

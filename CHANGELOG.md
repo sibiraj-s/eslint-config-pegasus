@@ -2,6 +2,34 @@
 
 All notable changes to this project will be documented in this file.
 
+## v1.2.0 (2020-08-07)
+
+**New Rules**
+
+- array-element-newline ([3786bc3](https://github.com/sibiraj-s/eslint-config-pegasus/commit/3786bc3))
+- array-bracket-newline ([7a69716](https://github.com/sibiraj-s/eslint-config-pegasus/commit/7a69716))
+- array-bracket-spacing ([98ce96c](https://github.com/sibiraj-s/eslint-config-pegasus/commit/98ce96c))
+- block-spacing ([c3f7a25](https://github.com/sibiraj-s/eslint-config-pegasus/commit/c3f7a25))
+- brace-style ([907ff67](https://github.com/sibiraj-s/eslint-config-pegasus/commit/907ff67))
+- camelcase ([0b56a85](https://github.com/sibiraj-s/eslint-config-pegasus/commit/0b56a85))
+- eol-last ([b76bc61](https://github.com/sibiraj-s/eslint-config-pegasus/commit/b76bc61))
+- function-call-argument-newline ([44e091f](https://github.com/sibiraj-s/eslint-config-pegasus/commit/44e091f))
+- func-call-spacing ([50e5a12](https://github.com/sibiraj-s/eslint-config-pegasus/commit/50e5a12))
+- indent ([ea6d9c7](https://github.com/sibiraj-s/eslint-config-pegasus/commit/ea6d9c7))
+- no-trailing-spaces ([10b1181](https://github.com/sibiraj-s/eslint-config-pegasus/commit/10b1181))
+- no-unneeded-ternary ([81f8332](https://github.com/sibiraj-s/eslint-config-pegasus/commit/81f8332))
+- no-whitespace-before-property ([a3d551b](https://github.com/sibiraj-s/eslint-config-pegasus/commit/a3d551b))
+- object-curly-spacing ([de5fb5e](https://github.com/sibiraj-s/eslint-config-pegasus/commit/de5fb5e))
+- space-before-blocks ([80e4adc](https://github.com/sibiraj-s/eslint-config-pegasus/commit/80e4adc))
+- space-before-function-paren ([4a2d374](https://github.com/sibiraj-s/eslint-config-pegasus/commit/4a2d374))
+- space-in-parens ([4420036](https://github.com/sibiraj-s/eslint-config-pegasus/commit/4420036))
+- space-infix-ops ([2fbde7b](https://github.com/sibiraj-s/eslint-config-pegasus/commit/2fbde7b))
+- space-unary-ops ([03ac1d2](https://github.com/sibiraj-s/eslint-config-pegasus/commit/03ac1d2))
+- spaced-comment ([380faa9](https://github.com/sibiraj-s/eslint-config-pegasus/commit/380faa9))
+- switch-colon-spacing ([9b9837b](https://github.com/sibiraj-s/eslint-config-pegasus/commit/9b9837b))
+- generator-star-spacing ([125b49a](https://github.com/sibiraj-s/eslint-config-pegasus/commit/125b49a))
+- comma-spacing ([29d4652](https://github.com/sibiraj-s/eslint-config-pegasus/commit/29d4652))
+
 ## v1.1.0 (2020-07-23)
 
 - add `no-dupe-keys` rule ([a94bd94](https://github.com/sibiraj-s/eslint-config-pegasus/commit/a94bd94))

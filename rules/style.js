@@ -131,6 +131,13 @@ module.exports = {
     // https://eslint.org/docs/rules/space-in-parens
     'space-in-parens': ['error', 'never'],
 
+    // Require or disallow spaces before/after unary operators
+    // https://eslint.org/docs/rules/space-unary-ops
+    'space-unary-ops': ['error', {
+      words: true,
+      nonwords: false,
+    }],
+
     // specify whether double or single quotes should be used
     'quotes': ['error', 'single', { avoidEscape: true }],
 

@@ -152,6 +152,10 @@ module.exports = {
       },
     }],
 
+    // enforce spacing around colons of switch statements
+    // https://eslint.org/docs/rules/switch-colon-spacing
+    'switch-colon-spacing': ['error', { after: true, before: false }],
+
     // specify whether double or single quotes should be used
     'quotes': ['error', 'single', { avoidEscape: true }],
 

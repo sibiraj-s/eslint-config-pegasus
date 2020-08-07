@@ -115,6 +115,14 @@ module.exports = {
     // https://eslint.org/docs/rules/space-before-blocks
     'space-before-blocks': 'error',
 
+    // require or disallow a space before function parenthesis
+    // https://eslint.org/docs/rules/space-before-function-paren
+    'space-before-function-paren': ['error', {
+      anonymous: 'always',
+      named: 'never',
+      asyncArrow: 'always',
+    }],
+
     // specify whether double or single quotes should be used
     'quotes': ['error', 'single', { avoidEscape: true }],
 

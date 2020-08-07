@@ -131,11 +131,25 @@ module.exports = {
     // https://eslint.org/docs/rules/space-in-parens
     'space-in-parens': ['error', 'never'],
 
-    // Require or disallow spaces before/after unary operators
+    // require or disallow spaces before/after unary operators
     // https://eslint.org/docs/rules/space-unary-ops
     'space-unary-ops': ['error', {
       words: true,
       nonwords: false,
+    }],
+
+    // requires or disallows a whitespace (space or tab) beginning a comment
+    // https://eslint.org/docs/rules/spaced-comment
+    'spaced-comment': ['error', 'always', {
+      line: {
+        exceptions: ['-', '+'],
+        markers: ['=', '!', '/'],
+      },
+      block: {
+        exceptions: ['-', '+'],
+        markers: ['=', '!', ':', '::'],
+        balanced: true,
+      },
     }],
 
     // specify whether double or single quotes should be used

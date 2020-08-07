@@ -123,6 +123,10 @@ module.exports = {
       asyncArrow: 'always',
     }],
 
+    // Disallow or enforce spaces inside of parentheses
+    // https://eslint.org/docs/rules/space-in-parens
+    'space-in-parens': ['error', 'never'],
+
     // specify whether double or single quotes should be used
     'quotes': ['error', 'single', { avoidEscape: true }],
 

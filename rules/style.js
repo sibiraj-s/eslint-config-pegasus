@@ -31,6 +31,10 @@ module.exports = {
     // https://eslint.org/docs/rules/comma-dangle
     'comma-dangle': ['error', 'always-multiline'],
 
+    // enforces spacing around commas
+    // https://eslint.org/docs/rules/comma-spacing
+    'comma-spacing': ['error', { before: false, after: true }],
+
     // require or disallow newline at the end of files
     // https://eslint.org/docs/rules/eol-last
     'eol-last': ['error', 'always'],
@@ -45,7 +49,7 @@ module.exports = {
 
     // enforce spacing around the * in generator functions
     // https://eslint.org/docs/rules/generator-star-spacing
-    'generator-star-spacing': ['error','after'],
+    'generator-star-spacing': ['error', 'after'],
 
     // enforce consistent indentation
     // https://eslint.org/docs/rules/indent

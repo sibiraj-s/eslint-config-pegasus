@@ -111,6 +111,10 @@ module.exports = {
     // https://eslint.org/docs/rules/semi
     'semi': ['error', 'always'],
 
+    // sequire Or Disallow Space Before Blocks
+    // https://eslint.org/docs/rules/space-before-blocks
+    'space-before-blocks': 'error',
+
     // specify whether double or single quotes should be used
     'quotes': ['error', 'single', { avoidEscape: true }],
 

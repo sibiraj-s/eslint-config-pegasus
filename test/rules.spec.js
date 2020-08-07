@@ -7,7 +7,7 @@ const eslint = new ESLint({
   baseConfig: baseConfig,
 });
 
-it('should validate the code correctly', async() => {
+it('should validate the code correctly', async () => {
   const code = 'const foo = {\n  x: 1,\n  y: 2,\n};\n';
   const errors = await eslint.lintText(code);
 

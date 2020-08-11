@@ -31,5 +31,10 @@ module.exports = {
     // disallow constant expressions in conditions
     // https://eslint.org/docs/rules/no-constant-condition
     'no-constant-condition': 'error',
+
+    // disallow control characters in regular expressions
+    // https://eslint.org/docs/rules/no-control-regex
+    'no-control-regex': 'error',
+
   },
 };

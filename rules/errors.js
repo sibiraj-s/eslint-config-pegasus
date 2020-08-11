@@ -139,5 +139,9 @@ module.exports = {
     // disallow confusing multiline expressions
     // https://eslint.org/docs/rules/no-unexpected-multiline
     'no-unexpected-multiline': 'error',
+
+    // disallow unreachable code after return, throw, continue, and break statements
+    // https://eslint.org/docs/rules/no-unreachable
+    'no-unreachable': 'error',
   },
 };

@@ -143,5 +143,9 @@ module.exports = {
     // disallow unreachable code after return, throw, continue, and break statements
     // https://eslint.org/docs/rules/no-unreachable
     'no-unreachable': 'error',
+
+    // disallow loops with a body that allows only one iteration
+    // https://eslint.org/docs/rules/no-unreachable-loop
+    'no-unreachable-loop': 'error',
   },
 };

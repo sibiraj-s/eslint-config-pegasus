@@ -111,5 +111,9 @@ module.exports = {
     // disallow calling global object properties as functions
     // https://eslint.org/docs/rules/no-obj-calls
     'no-obj-calls': 'error',
+
+    // disallow returning values from Promise executor functions
+    // https://eslint.org/docs/rules/no-promise-executor-return
+    'no-promise-executor-return': 'error',
   },
 };

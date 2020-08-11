@@ -167,5 +167,9 @@ module.exports = {
     // require calls to isNaN() when checking for NaN
     // https://eslint.org/docs/rules/use-isnan
     'use-isnan': 'error',
+
+    // enforce comparing typeof expressions against valid strings
+    // https://eslint.org/docs/rules/valid-typeof
+    'valid-typeof': 'error',
   },
 };

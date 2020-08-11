@@ -33,5 +33,9 @@ module.exports = {
     // disallow Initializing to undefined
     // https://eslint.org/docs/rules/no-undef-init
     'no-undef-init': 'error',
+
+    // disallow Use of undefined Variable
+    // https://eslint.org/docs/rules/no-undefined
+    'no-undefined': 'error',
   },
 };

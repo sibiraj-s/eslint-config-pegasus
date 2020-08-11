@@ -52,5 +52,9 @@ module.exports = {
     // https://eslint.org/docs/rules/no-dupe-keys
     'no-dupe-keys': 'error',
 
+    // rule to disallow a duplicate case label
+    // https://eslint.org/docs/rules/no-duplicate-case
+    'no-duplicate-case': 'error',
+
   },
 };

@@ -115,5 +115,9 @@ module.exports = {
     // disallow returning values from Promise executor functions
     // https://eslint.org/docs/rules/no-promise-executor-return
     'no-promise-executor-return': 'error',
+
+    // disallow use of Object.prototypes builtins directly
+    // https://eslint.org/docs/rules/no-prototype-builtins
+    'no-prototype-builtins': 'error',
   },
 };

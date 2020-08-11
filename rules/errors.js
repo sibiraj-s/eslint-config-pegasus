@@ -68,5 +68,9 @@ module.exports = {
     // https://eslint.org/docs/rules/no-ex-assign
     'no-ex-assign': 'error',
 
+    // disallow unnecessary boolean casts
+    // https://eslint.org/docs/rules/no-extra-boolean-cast
+    'no-extra-boolean-cast': 'error',
+
   },
 };

@@ -64,5 +64,9 @@ module.exports = {
     // https://eslint.org/docs/rules/no-empty-character-class
     'no-empty-character-class': 'error',
 
+    // disallow reassigning exceptions in catch clauses
+    // https://eslint.org/docs/rules/no-ex-assign
+    'no-ex-assign': 'error',
+
   },
 };

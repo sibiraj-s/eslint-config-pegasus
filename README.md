@@ -30,7 +30,7 @@ npm install eslint eslint-config-pegasus --save-dev
 
 ### Usage
 
-See [Eslint's Shareable Configs](https://eslint.org/docs/developer-guide/shareable-configs) for more information. Recommended to use with `eslint-config-airbnb` or `eslint-config-standard`.
+See [Eslint's Shareable Configs](https://eslint.org/docs/developer-guide/shareable-configs) for more information.
 
 ```json
 {

@@ -29,5 +29,9 @@ module.exports = {
     // disallow Undeclared Variables
     // https://eslint.org/docs/rules/no-undef
     'no-undef': 'error',
+
+    // disallow Initializing to undefined
+    // https://eslint.org/docs/rules/no-undef-init
+    'no-undef-init': 'error',
   },
 };

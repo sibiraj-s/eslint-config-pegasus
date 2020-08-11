@@ -36,5 +36,8 @@ module.exports = {
     // https://eslint.org/docs/rules/no-control-regex
     'no-control-regex': 'error',
 
+    // disallow the use of debugger
+    // https://eslint.org/docs/rules/no-debugger
+    'no-debugger': 'error',
   },
 };

@@ -131,5 +131,9 @@ module.exports = {
     // disallow sparse arrays
     // https://eslint.org/docs/rules/no-sparse-arrays
     'no-sparse-arrays': 'error',
+
+    // disallow template literal placeholder syntax in regular strings
+    // https://eslint.org/docs/rules/no-template-curly-in-string
+    'no-template-curly-in-string': 'error',
   },
 };

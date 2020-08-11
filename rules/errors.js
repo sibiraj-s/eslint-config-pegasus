@@ -123,5 +123,9 @@ module.exports = {
     // disallow multiple spaces in regular expression literals
     // https://eslint.org/docs/rules/no-regex-spaces
     'no-regex-spaces': 'error',
+
+    // disallow returning values from setters
+    // https://eslint.org/docs/rules/no-setter-return
+    'no-setter-return': 'error',
   },
 };

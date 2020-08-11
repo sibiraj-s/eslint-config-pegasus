@@ -56,5 +56,9 @@ module.exports = {
     // https://eslint.org/docs/rules/no-duplicate-case
     'no-duplicate-case': 'error',
 
+    // disallow empty block statements
+    // https://eslint.org/docs/rules/no-empty
+    'no-empty': 'error',
+
   },
 };

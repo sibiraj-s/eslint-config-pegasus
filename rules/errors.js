@@ -107,5 +107,9 @@ module.exports = {
     // disallow characters which are made with multiple code points in character class syntax
     // https://eslint.org/docs/rules/no-misleading-character-class
     'no-misleading-character-class': 'error',
+
+    // disallow calling global object properties as functions
+    // https://eslint.org/docs/rules/no-obj-calls
+    'no-obj-calls': 'error',
   },
 };

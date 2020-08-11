@@ -155,5 +155,9 @@ module.exports = {
     // disallow negating the left operand of relational operators
     // https://eslint.org/docs/rules/no-unsafe-negation
     'no-unsafe-negation': 'error',
+
+    // disallow useless backreferences in regular expressions
+    // https://eslint.org/docs/rules/no-useless-backreference
+    'no-useless-backreference': 'error',
   },
 };

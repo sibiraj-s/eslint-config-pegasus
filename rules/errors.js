@@ -44,5 +44,9 @@ module.exports = {
     // https://eslint.org/docs/rules/no-dupe-args
     'no-dupe-args': 'error',
 
+    // disallow duplicate conditions in if-else-if chains
+    // https://eslint.org/docs/rules/no-dupe-else-if
+    'no-dupe-else-if': 'error',
+
   },
 };

@@ -104,5 +104,8 @@ module.exports = {
     // https://eslint.org/docs/rules/no-loss-of-precision
     'no-loss-of-precision': 'error',
 
+    // disallow characters which are made with multiple code points in character class syntax
+    // https://eslint.org/docs/rules/no-misleading-character-class
+    'no-misleading-character-class': 'error',
   },
 };

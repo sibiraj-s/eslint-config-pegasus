@@ -83,5 +83,9 @@ module.exports = {
     // disallow reassigning function declarations
     // https://eslint.org/docs/rules/no-func-assign
     'no-func-assign': 'error',
+
+    // disallow assigning to imported bindings
+    // https://eslint.org/docs/rules/no-import-assign
+    'no-import-assign': 'error',
   },
 };

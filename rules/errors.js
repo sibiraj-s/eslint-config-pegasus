@@ -19,5 +19,9 @@ module.exports = {
     // disallow comparing against -0
     // https://eslint.org/docs/rules/no-compare-neg-zero
     'no-compare-neg-zero': 'error',
+
+    // disallow assignment operators in conditional statements
+    // https://eslint.org/docs/rules/no-cond-assign
+    'no-cond-assign': 'error',
   },
 };

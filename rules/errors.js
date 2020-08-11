@@ -79,5 +79,9 @@ module.exports = {
     // disallow unnecessary semicolons
     // https://eslint.org/docs/rules/no-extra-semi
     'no-extra-semi': 'error',
+
+    // disallow reassigning function declarations
+    // https://eslint.org/docs/rules/no-func-assign
+    'no-func-assign': 'error',
   },
 };

@@ -60,5 +60,9 @@ module.exports = {
     // https://eslint.org/docs/rules/no-empty
     'no-empty': 'error',
 
+    // disallow empty character classes in regular expressions
+    // https://eslint.org/docs/rules/no-empty-character-class
+    'no-empty-character-class': 'error',
+
   },
 };

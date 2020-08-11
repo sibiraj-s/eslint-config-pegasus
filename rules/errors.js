@@ -99,5 +99,10 @@ module.exports = {
     // disallow irregular whitespace
     // https://eslint.org/docs/rules/no-irregular-whitespace
     'no-irregular-whitespace': 'error',
+
+    // disallow number literals that lose precision
+    // https://eslint.org/docs/rules/no-loss-of-precision
+    'no-loss-of-precision': 'error',
+
   },
 };

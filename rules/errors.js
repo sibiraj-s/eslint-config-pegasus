@@ -135,5 +135,9 @@ module.exports = {
     // disallow template literal placeholder syntax in regular strings
     // https://eslint.org/docs/rules/no-template-curly-in-string
     'no-template-curly-in-string': 'error',
+
+    // disallow confusing multiline expressions
+    // https://eslint.org/docs/rules/no-unexpected-multiline
+    'no-unexpected-multiline': 'error',
   },
 };

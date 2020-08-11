@@ -127,5 +127,9 @@ module.exports = {
     // disallow returning values from setters
     // https://eslint.org/docs/rules/no-setter-return
     'no-setter-return': 'error',
+
+    // disallow sparse arrays
+    // https://eslint.org/docs/rules/no-sparse-arrays
+    'no-sparse-arrays': 'error',
   },
 };

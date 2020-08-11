@@ -119,5 +119,9 @@ module.exports = {
     // disallow use of Object.prototypes builtins directly
     // https://eslint.org/docs/rules/no-prototype-builtins
     'no-prototype-builtins': 'error',
+
+    // disallow multiple spaces in regular expression literals
+    // https://eslint.org/docs/rules/no-regex-spaces
+    'no-regex-spaces': 'error',
   },
 };

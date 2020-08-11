@@ -91,5 +91,9 @@ module.exports = {
     // disallow variable or function declarations in nested blocks
     // https://eslint.org/docs/rules/no-inner-declarations
     'no-inner-declarations': 'error',
+
+    // disallow invalid regular expression strings in RegExp constructors
+    // https://eslint.org/docs/rules/no-invalid-regexp
+    'no-invalid-regexp': 'error',
   },
 };

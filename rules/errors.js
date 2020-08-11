@@ -87,5 +87,9 @@ module.exports = {
     // disallow assigning to imported bindings
     // https://eslint.org/docs/rules/no-import-assign
     'no-import-assign': 'error',
+
+    // disallow variable or function declarations in nested blocks
+    // https://eslint.org/docs/rules/no-inner-declarations
+    'no-inner-declarations': 'error',
   },
 };

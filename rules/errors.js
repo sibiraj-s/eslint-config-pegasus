@@ -95,5 +95,9 @@ module.exports = {
     // disallow invalid regular expression strings in RegExp constructors
     // https://eslint.org/docs/rules/no-invalid-regexp
     'no-invalid-regexp': 'error',
+
+    // disallow irregular whitespace
+    // https://eslint.org/docs/rules/no-irregular-whitespace
+    'no-irregular-whitespace': 'error',
   },
 };

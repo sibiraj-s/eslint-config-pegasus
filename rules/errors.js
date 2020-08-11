@@ -75,5 +75,9 @@ module.exports = {
     // disallow unnecessary parentheses
     // https://eslint.org/docs/rules/no-extra-parens
     'no-extra-parens': 'error',
+
+    // disallow unnecessary semicolons
+    // https://eslint.org/docs/rules/no-extra-semi
+    'no-extra-semi': 'error',
   },
 };

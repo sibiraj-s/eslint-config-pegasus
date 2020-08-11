@@ -11,5 +11,9 @@ module.exports = {
     // disallow using an async function as a Promise executor
     // https://eslint.org/docs/rules/no-async-promise-executor
     'no-async-promise-executor': 'error',
+
+    // disallow await inside of loops
+    // https://eslint.org/docs/rules/no-await-in-loop
+    'no-await-in-loop': 'error',
   },
 };

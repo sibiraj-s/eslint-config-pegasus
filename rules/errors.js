@@ -23,5 +23,9 @@ module.exports = {
     // disallow assignment operators in conditional statements
     // https://eslint.org/docs/rules/no-cond-assign
     'no-cond-assign': 'error',
+
+    // disallow the use of console
+    // https://eslint.org/docs/rules/no-console
+    'no-console': 'warn',
   },
 };

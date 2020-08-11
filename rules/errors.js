@@ -159,5 +159,9 @@ module.exports = {
     // disallow useless backreferences in regular expressions
     // https://eslint.org/docs/rules/no-useless-backreference
     'no-useless-backreference': 'error',
+
+    // disallow assignments that can lead to race conditions due to usage of await or yield
+    // https://eslint.org/docs/rules/require-atomic-updates
+    'require-atomic-updates': 'error',
   },
 };

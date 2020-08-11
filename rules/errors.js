@@ -72,5 +72,8 @@ module.exports = {
     // https://eslint.org/docs/rules/no-extra-boolean-cast
     'no-extra-boolean-cast': 'error',
 
+    // disallow unnecessary parentheses
+    // https://eslint.org/docs/rules/no-extra-parens
+    'no-extra-parens': 'error',
   },
 };

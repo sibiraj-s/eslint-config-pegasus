@@ -41,5 +41,9 @@ module.exports = {
     // disallow unused variables
     // https://eslint.org/docs/rules/no-unused-vars
     'no-unused-vars': 'error',
+
+    // disallow early use
+    // https://eslint.org/docs/rules/no-use-before-define
+    'no-use-before-define': 'error',
   },
 };

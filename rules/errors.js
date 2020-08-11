@@ -48,5 +48,9 @@ module.exports = {
     // https://eslint.org/docs/rules/no-dupe-else-if
     'no-dupe-else-if': 'error',
 
+    // disallow duplicate keys in object literals
+    // https://eslint.org/docs/rules/no-dupe-keys
+    'no-dupe-keys': 'error',
+
   },
 };

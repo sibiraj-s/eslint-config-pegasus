@@ -39,5 +39,10 @@ module.exports = {
     // disallow the use of debugger
     // https://eslint.org/docs/rules/no-debugger
     'no-debugger': 'error',
+
+    // disallow duplicate arguments in function definitions
+    // https://eslint.org/docs/rules/no-dupe-args
+    'no-dupe-args': 'error',
+
   },
 };

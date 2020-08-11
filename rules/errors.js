@@ -171,5 +171,9 @@ module.exports = {
     // enforce comparing typeof expressions against valid strings
     // https://eslint.org/docs/rules/valid-typeof
     'valid-typeof': 'error',
+
+    // disallow variable declarations from shadowing variables declared in the outer scope
+    // https://eslint.org/docs/rules/no-shadow
+    'no-shadow': 'error',
   },
 };

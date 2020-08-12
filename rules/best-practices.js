@@ -11,5 +11,9 @@ module.exports = {
     // treat `var` as block scoped
     // https://eslint.org/docs/rules/block-scoped-var
     'block-scoped-var': 'error',
+
+    // enforce that class methods utilize this
+    // https://eslint.org/docs/rules/class-methods-use-this
+    'class-methods-use-this': 'error',
   },
 };

@@ -27,5 +27,9 @@ module.exports = {
     // require following curly brace conventions
     // https://eslint.org/docs/rules/curly
     'curly': 'error',
+
+    // require default case in Switch statements
+    // https://eslint.org/docs/rules/default-case
+    'default-case': ['error', { commentPattern: '^no default$' }],
   },
 };

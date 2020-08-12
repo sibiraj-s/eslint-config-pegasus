@@ -47,5 +47,9 @@ module.exports = {
     // require Dot Notation
     // https://eslint.org/docs/rules/dot-notation
     'dot-notation': 'error',
+
+    // require === and !==
+    // https://eslint.org/docs/rules/eqeqeq
+    'eqeqeq': ['error', 'always', { null: 'ignore' }],
   },
 };

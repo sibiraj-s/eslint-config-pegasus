@@ -7,5 +7,9 @@ module.exports = {
     // enforces return statements in callbacks of array's methods
     // https://eslint.org/docs/rules/array-callback-return
     'array-callback-return': ['error', { allowImplicit: true }],
+
+    // treat `var` as block scoped
+    // https://eslint.org/docs/rules/block-scoped-var
+    'block-scoped-var': 'error',
   },
 };

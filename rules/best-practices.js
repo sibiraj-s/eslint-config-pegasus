@@ -35,5 +35,9 @@ module.exports = {
     // enforce default clauses in switch statements to be last
     // https://eslint.org/docs/rules/default-case-last
     'default-case-last': 'error',
+
+    // enforce default parameters to be last
+    // https://eslint.org/docs/rules/default-param-last
+    'default-param-last': 'error',
   },
 };

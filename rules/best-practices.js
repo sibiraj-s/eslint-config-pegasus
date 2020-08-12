@@ -23,5 +23,9 @@ module.exports = {
     // require return statements to either always or never specify values
     // https://eslint.org/docs/rules/consistent-return
     'consistent-return': 'error',
+
+    // require following curly brace conventions
+    // https://eslint.org/docs/rules/curly
+    'curly': 'error',
   },
 };

@@ -59,5 +59,9 @@ module.exports = {
     // require Guarding for-in
     // https://eslint.org/docs/rules/guard-for-in
     'guard-for-in': 'error',
+
+    // enforce a maximum number of classes per file
+    // https://eslint.org/docs/rules/max-classes-per-file
+    'max-classes-per-file': ['error', 1],
   },
 };

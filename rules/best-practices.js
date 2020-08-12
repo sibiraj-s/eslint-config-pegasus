@@ -43,5 +43,9 @@ module.exports = {
     // enforce newline before and after dot
     // https://eslint.org/docs/rules/dot-location
     'dot-location': ['error', 'property'],
+
+    // require Dot Notation
+    // https://eslint.org/docs/rules/dot-notation
+    'dot-notation': 'error',
   },
 };

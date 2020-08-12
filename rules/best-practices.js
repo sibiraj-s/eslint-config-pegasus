@@ -39,5 +39,9 @@ module.exports = {
     // enforce default parameters to be last
     // https://eslint.org/docs/rules/default-param-last
     'default-param-last': 'error',
+
+    // enforce newline before and after dot
+    // https://eslint.org/docs/rules/dot-location
+    'dot-location': ['error', 'property'],
   },
 };

@@ -71,5 +71,9 @@ module.exports = {
     // disallow use of caller/callee
     // https://eslint.org/docs/rules/no-caller
     'no-caller': 'error',
+
+    // disallow lexical declarations in case/default clauses
+    // https://eslint.org/docs/rules/no-case-declarations
+    'no-case-declarations': 'error',
   },
 };

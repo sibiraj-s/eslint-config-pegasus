@@ -67,5 +67,9 @@ module.exports = {
     // disallow use of Alert
     // https://eslint.org/docs/rules/no-alert
     'no-alert': 'error',
+
+    // disallow use of caller/callee
+    // https://eslint.org/docs/rules/no-caller
+    'no-caller': 'error',
   },
 };

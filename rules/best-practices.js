@@ -55,5 +55,9 @@ module.exports = {
     // require grouped accessor pairs in object literals and classes
     // https://eslint.org/docs/rules/grouped-accessor-pairs
     'grouped-accessor-pairs': 'error',
+
+    // require Guarding for-in
+    // https://eslint.org/docs/rules/guard-for-in
+    'guard-for-in': 'error',
   },
 };

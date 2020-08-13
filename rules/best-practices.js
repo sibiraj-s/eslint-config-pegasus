@@ -255,5 +255,9 @@ module.exports = {
     // disallow unnecessary `catch` clauses
     // https://eslint.org/docs/rules/no-useless-catch
     'no-useless-catch': 'error',
+
+    // disallow unnecessary concatenation of literals or template literals
+    // https://eslint.org/docs/rules/no-useless-concat
+    'no-useless-concat': 'error',
   },
 };

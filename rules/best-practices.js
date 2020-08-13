@@ -263,5 +263,9 @@ module.exports = {
     // disallow unnecessary escape characters
     // https://eslint.org/docs/rules/no-useless-escape
     'no-useless-escape': 'error',
+
+    // disallow redundant return statements
+    // https://eslint.org/docs/rules/no-useless-return
+    'no-useless-return': 'error',
   },
 };

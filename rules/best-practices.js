@@ -299,5 +299,9 @@ module.exports = {
     // disallow async functions which have no `await` expression
     // https://eslint.org/docs/rules/require-await
     'require-await': 'error',
+
+    // enforce the use of `u` flag on RegExp
+    // https://eslint.org/docs/rules/require-unicode-regexp
+    'require-unicode-regexp': 'off',
   },
 };

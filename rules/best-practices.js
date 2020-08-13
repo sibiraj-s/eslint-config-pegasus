@@ -123,5 +123,9 @@ module.exports = {
     // disallow leading or trailing decimal points in numeric literals
     // https://eslint.org/docs/rules/no-floating-decimal
     'no-floating-decimal': 'error',
+
+    // disallow assignments to native objects or read-only global variables
+    // https://eslint.org/docs/rules/no-global-assign
+    'no-global-assign': 'error',
   },
 };

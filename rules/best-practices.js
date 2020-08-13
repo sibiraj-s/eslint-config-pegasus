@@ -231,5 +231,9 @@ module.exports = {
     // disallow comma operators
     // https://eslint.org/docs/rules/no-sequences
     'no-sequences': 'error',
+
+    // disallow throwing literals as exceptions
+    // https://eslint.org/docs/rules/no-throw-literal
+    'no-throw-literal': 'error',
   },
 };

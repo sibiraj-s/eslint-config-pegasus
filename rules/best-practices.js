@@ -127,5 +127,9 @@ module.exports = {
     // disallow assignments to native objects or read-only global variables
     // https://eslint.org/docs/rules/no-global-assign
     'no-global-assign': 'error',
+
+    // disallow shorthand type conversions
+    // https://eslint.org/docs/rules/no-implicit-coercion
+    'no-implicit-coercion': 'error',
   },
 };

@@ -30,5 +30,9 @@ module.exports = {
     // disallow reassigning class members
     // https://eslint.org/docs/rules/no-class-assign
     'no-class-assign': 'error',
+
+    // disallow arrow functions where they could be confused with comparisons
+    // https://eslint.org/docs/rules/no-confusing-arrow
+    'no-confusing-arrow': 'error',
   },
 };

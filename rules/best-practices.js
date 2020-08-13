@@ -155,5 +155,9 @@ module.exports = {
     // disallow unnecessary nested blocks
     // https://eslint.org/docs/rules/no-lone-blocks
     'no-lone-blocks': 'error',
+
+    // disallow function declarations that contain unsafe references inside loop statements
+    // https://eslint.org/docs/rules/no-loop-func
+    'no-loop-func': 'error',
   },
 };

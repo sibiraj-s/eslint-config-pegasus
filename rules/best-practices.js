@@ -287,5 +287,9 @@ module.exports = {
     // require using Error objects as Promise rejection reasons
     // https://eslint.org/docs/rules/prefer-promise-reject-errors
     'prefer-promise-reject-errors': 'error',
+
+    // disallow use of the `RegExp` constructor in favor of regular expression literals
+    // https://eslint.org/docs/rules/prefer-regex-literals
+    'prefer-regex-literals': 'error',
   },
 };

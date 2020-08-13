@@ -199,5 +199,9 @@ module.exports = {
     // disallow the use of the `__proto__` property
     // https://eslint.org/docs/rules/no-proto
     'no-proto': 'error',
+
+    // disallow variable redeclaration
+    // https://eslint.org/docs/rules/no-redeclare
+    'no-redeclare': 'error',
   },
 };

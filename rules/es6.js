@@ -19,6 +19,10 @@ module.exports = {
     // https://eslint.org/docs/rules/arrow-spacing
     'arrow-spacing': ['error', { before: true, after: true }],
 
+    // require `super()` calls in constructors
+    // https://eslint.org/docs/rules/constructor-super
+    'constructor-super': 'error',
+
     // enforce the spacing around the * in generator functions
     // https://eslint.org/docs/rules/generator-star-spacing
     'generator-star-spacing': ['error', { before: false, after: true }],

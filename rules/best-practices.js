@@ -279,5 +279,9 @@ module.exports = {
     // disallow `with` statements
     // https://eslint.org/docs/rules/no-with
     'no-with': 'error',
+
+    // enforce using named capture group in regular expression
+    // https://eslint.org/docs/rules/prefer-named-capture-group
+    'prefer-named-capture-group': 'error',
   },
 };

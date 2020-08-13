@@ -75,5 +75,9 @@ module.exports = {
     // disallow lexical declarations in case/default clauses
     // https://eslint.org/docs/rules/no-case-declarations
     'no-case-declarations': 'error',
+
+    // disallow returning value in constructor
+    // https://eslint.org/docs/rules/no-constructor-return
+    'no-constructor-return': 'error',
   },
 };

@@ -251,5 +251,9 @@ module.exports = {
     // disallow unnecessary calls to `.call()` and `.apply()`
     // https://eslint.org/docs/rules/no-useless-call
     'no-useless-call': 'error',
+
+    // disallow unnecessary `catch` clauses
+    // https://eslint.org/docs/rules/no-useless-catch
+    'no-useless-catch': 'error',
   },
 };

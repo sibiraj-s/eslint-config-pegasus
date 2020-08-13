@@ -143,5 +143,9 @@ module.exports = {
     // disallow `this` keywords outside of classes or class-like objects
     // https://eslint.org/docs/rules/no-invalid-this
     'no-invalid-this': 'error',
+
+    // disallow the use of the `__iterator__` property
+    // https://eslint.org/docs/rules/no-iterator
+    'no-iterator': 'error',
   },
 };

@@ -307,5 +307,9 @@ module.exports = {
     // require `var` declarations be placed at the top of their containing scope
     // https://eslint.org/docs/rules/vars-on-top
     'vars-on-top': 'error',
+
+    // require parentheses around immediate `function` invocations
+    // https://eslint.org/docs/rules/wrap-iife
+    'wrap-iife': 'error',
   },
 };

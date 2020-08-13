@@ -135,5 +135,9 @@ module.exports = {
     // disallow declarations in the global scope
     // https://eslint.org/docs/rules/no-implicit-globals
     'no-implicit-globals': 'error',
+
+    // disallow the use of `eval()`-like methods
+    // https://eslint.org/docs/rules/no-implied-eval
+    'no-implied-eval': 'error',
   },
 };

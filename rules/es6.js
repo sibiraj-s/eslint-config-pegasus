@@ -15,6 +15,10 @@ module.exports = {
     // https://eslint.org/docs/rules/arrow-parens
     'arrow-parens': ['error', 'always'],
 
+    // enforce consistent spacing before and after the arrow in arrow functions
+    // https://eslint.org/docs/rules/arrow-spacing
+    'arrow-spacing': ['error', { before: true, after: true }],
+
     // enforce the spacing around the * in generator functions
     // https://eslint.org/docs/rules/generator-star-spacing
     'generator-star-spacing': ['error', { before: false, after: true }],

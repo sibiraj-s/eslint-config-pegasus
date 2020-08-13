@@ -227,5 +227,9 @@ module.exports = {
     // disallow comparisons where both sides are exactly the same
     // https://eslint.org/docs/rules/no-self-compare
     'no-self-compare': 'error',
+
+    // disallow comma operators
+    // https://eslint.org/docs/rules/no-sequences
+    'no-sequences': 'error',
   },
 };

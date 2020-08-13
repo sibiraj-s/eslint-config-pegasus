@@ -34,5 +34,9 @@ module.exports = {
     // disallow arrow functions where they could be confused with comparisons
     // https://eslint.org/docs/rules/no-confusing-arrow
     'no-confusing-arrow': 'error',
+
+    // disallow reassigning `const` variables
+    // https://eslint.org/docs/rules/no-const-assign
+    'no-const-assign': 'error',
   },
 };

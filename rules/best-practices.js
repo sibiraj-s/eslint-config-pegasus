@@ -211,5 +211,9 @@ module.exports = {
     // disallow assignment operators in `return` statements
     // https://eslint.org/docs/rules/no-return-assign
     'no-return-assign': 'error',
+
+    // disallow unnecessary `return await`
+    // https://eslint.org/docs/rules/no-return-await
+    'no-return-await': 'error',
   },
 };

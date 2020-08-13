@@ -111,5 +111,9 @@ module.exports = {
     // disallow unnecessary calls to `.bind()`
     // https://eslint.org/docs/rules/no-extra-bind
     'no-extra-bind': 'error',
+
+    // disallow unnecessary labels
+    // https://eslint.org/docs/rules/no-extra-label
+    'no-extra-label': 'error',
   },
 };

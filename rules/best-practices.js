@@ -271,5 +271,9 @@ module.exports = {
     // disallow `void` operators
     // https://eslint.org/docs/rules/no-void
     'no-void': 'error',
+
+    // disallow specified warning terms in comments
+    // https://eslint.org/docs/rules/no-warning-comments
+    'no-warning-comments': 'error',
   },
 };

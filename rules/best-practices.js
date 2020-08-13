@@ -139,5 +139,9 @@ module.exports = {
     // disallow the use of `eval()`-like methods
     // https://eslint.org/docs/rules/no-implied-eval
     'no-implied-eval': 'error',
+
+    // disallow `this` keywords outside of classes or class-like objects
+    // https://eslint.org/docs/rules/no-invalid-this
+    'no-invalid-this': 'error',
   },
 };

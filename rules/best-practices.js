@@ -183,5 +183,9 @@ module.exports = {
     // disallow `new` operators with the `String`, `Number`, and `Boolean` objects
     // https://eslint.org/docs/rules/no-new-wrappers
     'no-new-wrappers': 'error',
+
+    // disallow octal literals
+    // https://eslint.org/docs/rules/no-octal
+    'no-octal': 'error',
   },
 };

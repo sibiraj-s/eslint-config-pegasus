@@ -163,5 +163,9 @@ module.exports = {
     // disallow magic numbers
     // https://eslint.org/docs/rules/no-magic-numbers
     'no-magic-numbers': 'off',
+
+    // disallow multiple spaces
+    // https://eslint.org/docs/rules/no-multi-spaces
+    'no-multi-spaces': 'error',
   },
 };

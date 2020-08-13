@@ -171,5 +171,9 @@ module.exports = {
     // disallow multiline strings
     // https://eslint.org/docs/rules/no-multi-str
     'no-multi-str': 'error',
+
+    // disallow `new` operators outside of assignments or comparisons
+    // https://eslint.org/docs/rules/no-new
+    'no-new': 'error',
   },
 };

@@ -99,5 +99,9 @@ module.exports = {
     // disallow `null` comparisons without type-checking operators
     // https://eslint.org/docs/rules/no-eq-null
     'no-eq-null': 'error',
+
+    // disallow the use of `eval()`
+    // https://eslint.org/docs/rules/no-eval
+    'no-eval': 'error',
   },
 };

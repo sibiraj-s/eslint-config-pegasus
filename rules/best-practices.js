@@ -179,5 +179,9 @@ module.exports = {
     // disallow `new` operators with the `Function` object
     // https://eslint.org/docs/rules/no-new-func
     'no-new-func': 'error',
+
+    // disallow `new` operators with the `String`, `Number`, and `Boolean` objects
+    // https://eslint.org/docs/rules/no-new-wrappers
+    'no-new-wrappers': 'error',
   },
 };

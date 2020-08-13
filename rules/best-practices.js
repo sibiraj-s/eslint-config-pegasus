@@ -191,5 +191,9 @@ module.exports = {
     // disallow octal escape sequences in string literals
     // https://eslint.org/docs/rules/no-octal-escape
     'no-octal-escape': 'error',
+
+    // disallow reassigning `function` parameters
+    // https://eslint.org/docs/rules/no-param-reassign
+    'no-param-reassign': 'error',
   },
 };

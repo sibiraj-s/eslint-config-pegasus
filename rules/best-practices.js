@@ -223,5 +223,9 @@ module.exports = {
     // disallow assignments where both sides are exactly the same
     // https://eslint.org/docs/rules/no-self-assign
     'no-self-assign': 'error',
+
+    // disallow comparisons where both sides are exactly the same
+    // https://eslint.org/docs/rules/no-self-compare
+    'no-self-compare': 'error',
   },
 };

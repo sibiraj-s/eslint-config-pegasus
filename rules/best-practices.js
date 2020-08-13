@@ -175,5 +175,9 @@ module.exports = {
     // disallow `new` operators outside of assignments or comparisons
     // https://eslint.org/docs/rules/no-new
     'no-new': 'error',
+
+    // disallow `new` operators with the `Function` object
+    // https://eslint.org/docs/rules/no-new-func
+    'no-new-func': 'error',
   },
 };

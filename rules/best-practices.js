@@ -87,5 +87,9 @@ module.exports = {
     // disallow `else` blocks after `return` statements in `if` statements
     // https://eslint.org/docs/rules/no-else-return
     'no-else-return': ['error', { allowElseIf: false }],
+
+    // disallow empty functions
+    // https://eslint.org/docs/rules/no-empty-function
+    'no-empty-function': 'error',
   },
 };

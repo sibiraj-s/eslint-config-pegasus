@@ -151,5 +151,9 @@ module.exports = {
     // disallow labeled statements
     // https://eslint.org/docs/rules/no-labels
     'no-labels': 'error',
+
+    // disallow unnecessary nested blocks
+    // https://eslint.org/docs/rules/no-lone-blocks
+    'no-lone-blocks': 'error',
   },
 };

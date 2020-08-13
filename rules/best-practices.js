@@ -295,5 +295,9 @@ module.exports = {
     // enforce the consistent use of the radix argument when using `parseInt()`
     // https://eslint.org/docs/rules/radix
     'radix': 'error',
+
+    // disallow async functions which have no `await` expression
+    // https://eslint.org/docs/rules/require-await
+    'require-await': 'error',
   },
 };

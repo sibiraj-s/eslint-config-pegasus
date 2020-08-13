@@ -119,5 +119,9 @@ module.exports = {
     // disallow fallthrough of `case` statements
     // https://eslint.org/docs/rules/no-fallthrough
     'no-fallthrough': 'error',
+
+    // disallow leading or trailing decimal points in numeric literals
+    // https://eslint.org/docs/rules/no-floating-decimal
+    'no-floating-decimal': 'error',
   },
 };

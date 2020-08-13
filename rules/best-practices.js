@@ -215,5 +215,9 @@ module.exports = {
     // disallow unnecessary `return await`
     // https://eslint.org/docs/rules/no-return-await
     'no-return-await': 'error',
+
+    // disallow `javascript:` urls
+    // https://eslint.org/docs/rules/no-script-url
+    'no-script-url': 'error',
   },
 };

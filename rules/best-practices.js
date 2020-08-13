@@ -147,5 +147,9 @@ module.exports = {
     // disallow the use of the `__iterator__` property
     // https://eslint.org/docs/rules/no-iterator
     'no-iterator': 'error',
+
+    // disallow labeled statements
+    // https://eslint.org/docs/rules/no-labels
+    'no-labels': 'error',
   },
 };

@@ -95,5 +95,9 @@ module.exports = {
     // disallow empty destructuring patterns
     // https://eslint.org/docs/rules/no-empty-pattern
     'no-empty-pattern': 'error',
+
+    // disallow `null` comparisons without type-checking operators
+    // https://eslint.org/docs/rules/no-eq-null
+    'no-eq-null': 'error',
   },
 };

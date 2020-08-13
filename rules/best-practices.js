@@ -167,5 +167,9 @@ module.exports = {
     // disallow multiple spaces
     // https://eslint.org/docs/rules/no-multi-spaces
     'no-multi-spaces': 'error',
+
+    // disallow multiline strings
+    // https://eslint.org/docs/rules/no-multi-str
+    'no-multi-str': 'error',
   },
 };

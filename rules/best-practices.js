@@ -219,5 +219,9 @@ module.exports = {
     // disallow `javascript:` urls
     // https://eslint.org/docs/rules/no-script-url
     'no-script-url': 'error',
+
+    // disallow assignments where both sides are exactly the same
+    // https://eslint.org/docs/rules/no-self-assign
+    'no-self-assign': 'error',
   },
 };

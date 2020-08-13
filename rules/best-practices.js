@@ -247,5 +247,9 @@ module.exports = {
     // disallow unused labels
     // https://eslint.org/docs/rules/no-unused-labels
     'no-unused-labels': 'error',
+
+    // disallow unnecessary calls to `.call()` and `.apply()`
+    // https://eslint.org/docs/rules/no-useless-call
+    'no-useless-call': 'error',
   },
 };

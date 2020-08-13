@@ -103,5 +103,9 @@ module.exports = {
     // disallow the use of `eval()`
     // https://eslint.org/docs/rules/no-eval
     'no-eval': 'error',
+
+    // disallow extending native objects
+    // https://eslint.org/docs/rules/no-extend-native
+    'no-extend-native': 'error',
   },
 };

@@ -243,5 +243,9 @@ module.exports = {
     // disallow unused expressions
     // https://eslint.org/docs/rules/no-unused-expressions
     'no-unused-expressions': 'error',
+
+    // disallow unused labels
+    // https://eslint.org/docs/rules/no-unused-labels
+    'no-unused-labels': 'error',
   },
 };

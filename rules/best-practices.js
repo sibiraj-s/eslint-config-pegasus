@@ -275,5 +275,9 @@ module.exports = {
     // disallow specified warning terms in comments
     // https://eslint.org/docs/rules/no-warning-comments
     'no-warning-comments': 'error',
+
+    // disallow `with` statements
+    // https://eslint.org/docs/rules/no-with
+    'no-with': 'error',
   },
 };

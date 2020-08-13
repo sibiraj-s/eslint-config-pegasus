@@ -303,5 +303,9 @@ module.exports = {
     // enforce the use of `u` flag on RegExp
     // https://eslint.org/docs/rules/require-unicode-regexp
     'require-unicode-regexp': 'off',
+
+    // require `var` declarations be placed at the top of their containing scope
+    // https://eslint.org/docs/rules/vars-on-top
+    'vars-on-top': 'error',
   },
 };

@@ -203,5 +203,9 @@ module.exports = {
     // disallow variable redeclaration
     // https://eslint.org/docs/rules/no-redeclare
     'no-redeclare': 'error',
+
+    // disallow certain properties on certain objects
+    // https://eslint.org/docs/rules/no-restricted-properties
+    'no-restricted-properties':'error',
   },
 };

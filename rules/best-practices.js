@@ -267,5 +267,9 @@ module.exports = {
     // disallow redundant return statements
     // https://eslint.org/docs/rules/no-useless-return
     'no-useless-return': 'error',
+
+    // disallow `void` operators
+    // https://eslint.org/docs/rules/no-void
+    'no-void': 'error',
   },
 };

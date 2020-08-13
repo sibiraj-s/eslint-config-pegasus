@@ -311,5 +311,9 @@ module.exports = {
     // require parentheses around immediate `function` invocations
     // https://eslint.org/docs/rules/wrap-iife
     'wrap-iife': 'error',
+
+    // require or disallow "Yoda" conditions
+    // https://eslint.org/docs/rules/yoda
+    'yoda': 'error',
   },
 };

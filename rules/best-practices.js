@@ -91,5 +91,9 @@ module.exports = {
     // disallow empty functions
     // https://eslint.org/docs/rules/no-empty-function
     'no-empty-function': 'error',
+
+    // disallow empty destructuring patterns
+    // https://eslint.org/docs/rules/no-empty-pattern
+    'no-empty-pattern': 'error',
   },
 };

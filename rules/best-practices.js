@@ -235,5 +235,9 @@ module.exports = {
     // disallow throwing literals as exceptions
     // https://eslint.org/docs/rules/no-throw-literal
     'no-throw-literal': 'error',
+
+    // disallow unmodified loop conditions
+    // https://eslint.org/docs/rules/no-unmodified-loop-condition
+    'no-unmodified-loop-condition': 'error',
   },
 };

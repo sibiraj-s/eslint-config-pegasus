@@ -107,5 +107,9 @@ module.exports = {
     // disallow extending native objects
     // https://eslint.org/docs/rules/no-extend-native
     'no-extend-native': 'error',
+
+    // disallow unnecessary calls to `.bind()`
+    // https://eslint.org/docs/rules/no-extra-bind
+    'no-extra-bind': 'error',
   },
 };

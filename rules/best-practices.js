@@ -115,5 +115,9 @@ module.exports = {
     // disallow unnecessary labels
     // https://eslint.org/docs/rules/no-extra-label
     'no-extra-label': 'error',
+
+    // disallow fallthrough of `case` statements
+    // https://eslint.org/docs/rules/no-fallthrough
+    'no-fallthrough': 'error',
   },
 };

@@ -26,5 +26,9 @@ module.exports = {
     // enforce the spacing around the * in generator functions
     // https://eslint.org/docs/rules/generator-star-spacing
     'generator-star-spacing': ['error', { before: false, after: true }],
+
+    // disallow reassigning class members
+    // https://eslint.org/docs/rules/no-class-assign
+    'no-class-assign': 'error',
   },
 };

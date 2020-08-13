@@ -187,5 +187,9 @@ module.exports = {
     // disallow octal literals
     // https://eslint.org/docs/rules/no-octal
     'no-octal': 'error',
+
+    // disallow octal escape sequences in string literals
+    // https://eslint.org/docs/rules/no-octal-escape
+    'no-octal-escape': 'error',
   },
 };

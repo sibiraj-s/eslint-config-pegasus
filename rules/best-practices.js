@@ -259,5 +259,9 @@ module.exports = {
     // disallow unnecessary concatenation of literals or template literals
     // https://eslint.org/docs/rules/no-useless-concat
     'no-useless-concat': 'error',
+
+    // disallow unnecessary escape characters
+    // https://eslint.org/docs/rules/no-useless-escape
+    'no-useless-escape': 'error',
   },
 };

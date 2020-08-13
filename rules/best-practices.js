@@ -159,5 +159,9 @@ module.exports = {
     // disallow function declarations that contain unsafe references inside loop statements
     // https://eslint.org/docs/rules/no-loop-func
     'no-loop-func': 'error',
+
+    // disallow magic numbers
+    // https://eslint.org/docs/rules/no-magic-numbers
+    'no-magic-numbers': 'off',
   },
 };

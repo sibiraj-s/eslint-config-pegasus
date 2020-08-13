@@ -195,5 +195,9 @@ module.exports = {
     // disallow reassigning `function` parameters
     // https://eslint.org/docs/rules/no-param-reassign
     'no-param-reassign': 'error',
+
+    // disallow the use of the `__proto__` property
+    // https://eslint.org/docs/rules/no-proto
+    'no-proto': 'error',
   },
 };

@@ -239,5 +239,9 @@ module.exports = {
     // disallow unmodified loop conditions
     // https://eslint.org/docs/rules/no-unmodified-loop-condition
     'no-unmodified-loop-condition': 'error',
+
+    // disallow unused expressions
+    // https://eslint.org/docs/rules/no-unused-expressions
+    'no-unused-expressions': 'error',
   },
 };

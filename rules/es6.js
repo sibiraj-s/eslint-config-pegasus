@@ -38,5 +38,9 @@ module.exports = {
     // disallow reassigning `const` variables
     // https://eslint.org/docs/rules/no-const-assign
     'no-const-assign': 'error',
+
+    // disallow duplicate class members
+    // https://eslint.org/docs/rules/no-dupe-class-members
+    'no-dupe-class-members': 'error',
   },
 };

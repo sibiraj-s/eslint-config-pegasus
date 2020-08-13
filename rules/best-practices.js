@@ -131,5 +131,9 @@ module.exports = {
     // disallow shorthand type conversions
     // https://eslint.org/docs/rules/no-implicit-coercion
     'no-implicit-coercion': 'error',
+
+    // disallow declarations in the global scope
+    // https://eslint.org/docs/rules/no-implicit-globals
+    'no-implicit-globals': 'error',
   },
 };

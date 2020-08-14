@@ -110,5 +110,9 @@ module.exports = {
     // require template literals instead of string concatenation
     // https://eslint.org/docs/rules/prefer-template
     'prefer-template': 'error',
+
+    // require generator functions to contain `yield`
+    // https://eslint.org/docs/rules/require-yield
+    'require-yield': 'error',
   },
 };

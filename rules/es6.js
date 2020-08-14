@@ -86,5 +86,9 @@ module.exports = {
     // require using arrow functions for callbacks
     // https://eslint.org/docs/rules/prefer-arrow-callback
     'prefer-arrow-callback': 'error',
+
+    // require `const` declarations for variables that are never reassigned after declared
+    // https://eslint.org/docs/rules/prefer-const
+    'prefer-const': 'error',
   },
 };

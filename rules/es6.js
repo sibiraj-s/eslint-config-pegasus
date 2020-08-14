@@ -118,5 +118,9 @@ module.exports = {
     // enforce spacing between rest and spread operators and their expressions
     // https://eslint.org/docs/rules/rest-spread-spacing
     'rest-spread-spacing': 'error',
+
+    // enforce sorted import declarations within modules
+    // https://eslint.org/docs/rules/sort-imports
+    'sort-imports': 'off',
   },
 };

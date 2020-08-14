@@ -27,6 +27,10 @@ module.exports = {
     // https://eslint.org/docs/rules/camelcase
     'camelcase': ['error', { properties: 'never', ignoreDestructuring: false }],
 
+    // enforce or disallow capitalization of the first letter of a comment
+    // https://eslint.org/docs/rules/capitalized-comments
+    'capitalized-comments': 'off',
+
     // require or disallow trailing commas
     // https://eslint.org/docs/rules/comma-dangle
     'comma-dangle': ['error', 'always-multiline'],
@@ -135,7 +139,7 @@ module.exports = {
     // https://eslint.org/docs/rules/space-infix-ops
     'space-infix-ops': 'error',
 
-    // Disallow or enforce spaces inside of parentheses
+    // disallow or enforce spaces inside of parentheses
     // https://eslint.org/docs/rules/space-in-parens
     'space-in-parens': ['error', 'never'],
 

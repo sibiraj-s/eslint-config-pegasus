@@ -98,5 +98,9 @@ module.exports = {
     // disallow `parseInt()` and `Number.parseInt()` in favor of binary, octal, and hexadecimal literals
     // https://eslint.org/docs/rules/prefer-numeric-literals
     'prefer-numeric-literals': 'error',
+
+    // require rest parameters instead of `arguments`
+    // https://eslint.org/docs/rules/prefer-rest-params
+    'prefer-rest-params': 'error',
   },
 };

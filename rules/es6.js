@@ -106,5 +106,9 @@ module.exports = {
     // require spread operators instead of `.apply()`
     // https://eslint.org/docs/rules/prefer-spread
     'prefer-spread': 'error',
+
+    // require template literals instead of string concatenation
+    // https://eslint.org/docs/rules/prefer-template
+    'prefer-template': 'error',
   },
 };

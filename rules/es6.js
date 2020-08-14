@@ -90,5 +90,9 @@ module.exports = {
     // require `const` declarations for variables that are never reassigned after declared
     // https://eslint.org/docs/rules/prefer-const
     'prefer-const': 'error',
+
+    // require destructuring from arrays and/or objects
+    // https://eslint.org/docs/rules/prefer-destructuring
+    'prefer-destructuring': 'error',
   },
 };

@@ -102,5 +102,9 @@ module.exports = {
     // require rest parameters instead of `arguments`
     // https://eslint.org/docs/rules/prefer-rest-params
     'prefer-rest-params': 'error',
+
+    // require spread operators instead of `.apply()`
+    // https://eslint.org/docs/rules/prefer-spread
+    'prefer-spread': 'error',
   },
 };

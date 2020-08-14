@@ -114,5 +114,9 @@ module.exports = {
     // require generator functions to contain `yield`
     // https://eslint.org/docs/rules/require-yield
     'require-yield': 'error',
+
+    // enforce spacing between rest and spread operators and their expressions
+    // https://eslint.org/docs/rules/rest-spread-spacing
+    'rest-spread-spacing': 'error',
   },
 };

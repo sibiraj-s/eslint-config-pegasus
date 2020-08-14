@@ -126,5 +126,9 @@ module.exports = {
     // require symbol descriptions
     // https://eslint.org/docs/rules/symbol-description
     'symbol-description': 'error',
+
+    // require or disallow spacing around embedded expressions of template strings
+    // https://eslint.org/docs/rules/template-curly-spacing
+    'template-curly-spacing': 'error',
   },
 };

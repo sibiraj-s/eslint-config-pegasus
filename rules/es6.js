@@ -42,5 +42,9 @@ module.exports = {
     // disallow duplicate class members
     // https://eslint.org/docs/rules/no-dupe-class-members
     'no-dupe-class-members': 'error',
+
+    // disallow duplicate module imports
+    // https://eslint.org/docs/rules/no-duplicate-imports
+    'no-duplicate-imports': 'error',
   },
 };

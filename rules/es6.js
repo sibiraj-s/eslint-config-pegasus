@@ -46,5 +46,9 @@ module.exports = {
     // disallow duplicate module imports
     // https://eslint.org/docs/rules/no-duplicate-imports
     'no-duplicate-imports': 'error',
+
+    // disallow `new` operators with the `Symbol` object
+    // https://eslint.org/docs/rules/no-new-symbol
+    'no-new-symbol': 'error',
   },
 };

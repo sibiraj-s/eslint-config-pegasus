@@ -94,5 +94,9 @@ module.exports = {
     // require destructuring from arrays and/or objects
     // https://eslint.org/docs/rules/prefer-destructuring
     'prefer-destructuring': 'error',
+
+    // disallow `parseInt()` and `Number.parseInt()` in favor of binary, octal, and hexadecimal literals
+    // https://eslint.org/docs/rules/prefer-numeric-literals
+    'prefer-numeric-literals': 'error',
   },
 };

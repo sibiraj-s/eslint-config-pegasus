@@ -82,5 +82,9 @@ module.exports = {
     // require or disallow method and property shorthand syntax for object literals
     // https://eslint.org/docs/rules/object-shorthand
     'object-shorthand': 'error',
+
+    // require using arrow functions for callbacks
+    // https://eslint.org/docs/rules/prefer-arrow-callback
+    'prefer-arrow-callback': 'error',
   },
 };

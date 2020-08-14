@@ -54,5 +54,9 @@ module.exports = {
     // disallow specified names in exports
     // https://eslint.org/docs/rules/no-restricted-exports
     'no-restricted-exports': 'error',
+
+    // disallow specified modules when loaded by `import`
+    // https://eslint.org/docs/rules/no-restricted-imports
+    'no-restricted-imports': 'error',
   },
 };

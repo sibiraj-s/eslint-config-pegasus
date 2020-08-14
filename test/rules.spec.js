@@ -4,7 +4,7 @@ const baseConfig = require('../index');
 
 const eslint = new ESLint({
   useEslintrc: false,
-  baseConfig: baseConfig,
+  baseConfig,
 });
 
 it('should validate the code correctly', async () => {

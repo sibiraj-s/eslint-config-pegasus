@@ -122,5 +122,9 @@ module.exports = {
     // enforce sorted import declarations within modules
     // https://eslint.org/docs/rules/sort-imports
     'sort-imports': 'off',
+
+    // require symbol descriptions
+    // https://eslint.org/docs/rules/symbol-description
+    'symbol-description': 'error',
   },
 };

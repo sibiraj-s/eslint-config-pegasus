@@ -66,5 +66,9 @@ module.exports = {
     // disallow unnecessary computed property keys in objects and classes
     // https://eslint.org/docs/rules/no-useless-computed-key
     'no-useless-computed-key': 'error',
+
+    // disallow unnecessary constructors
+    // https://eslint.org/docs/rules/no-useless-constructor
+    'no-useless-constructor': 'error',
   },
 };

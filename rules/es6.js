@@ -58,5 +58,9 @@ module.exports = {
     // disallow specified modules when loaded by `import`
     // https://eslint.org/docs/rules/no-restricted-imports
     'no-restricted-imports': 'error',
+
+    // disallow `this`/`super` before calling `super()` in constructors
+    // https://eslint.org/docs/rules/no-this-before-super
+    'no-this-before-super': 'error',
   },
 };

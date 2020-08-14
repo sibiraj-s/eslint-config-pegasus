@@ -78,5 +78,9 @@ module.exports = {
     // require `let` or `const` instead of `var`
     // https://eslint.org/docs/rules/no-var
     'no-var': 'error',
+
+    // require or disallow method and property shorthand syntax for object literals
+    // https://eslint.org/docs/rules/object-shorthand
+    'object-shorthand': 'error',
   },
 };

@@ -74,5 +74,9 @@ module.exports = {
     // disallow renaming import, export, and destructured assignments to the same name
     // https://eslint.org/docs/rules/no-useless-rename
     'no-useless-rename': 'error',
+
+    // require `let` or `const` instead of `var`
+    // https://eslint.org/docs/rules/no-var
+    'no-var': 'error',
   },
 };

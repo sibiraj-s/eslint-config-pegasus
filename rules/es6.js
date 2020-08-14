@@ -130,5 +130,9 @@ module.exports = {
     // require or disallow spacing around embedded expressions of template strings
     // https://eslint.org/docs/rules/template-curly-spacing
     'template-curly-spacing': 'error',
+
+    // require or disallow spacing around the `*` in `yield*` expressions
+    // https://eslint.org/docs/rules/yield-star-spacing
+    'yield-star-spacing': ['error', 'after'],
   },
 };

@@ -70,5 +70,9 @@ module.exports = {
     // disallow unnecessary constructors
     // https://eslint.org/docs/rules/no-useless-constructor
     'no-useless-constructor': 'error',
+
+    // disallow renaming import, export, and destructured assignments to the same name
+    // https://eslint.org/docs/rules/no-useless-rename
+    'no-useless-rename': 'error',
   },
 };

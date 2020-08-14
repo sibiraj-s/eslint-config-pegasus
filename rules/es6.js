@@ -50,5 +50,9 @@ module.exports = {
     // disallow `new` operators with the `Symbol` object
     // https://eslint.org/docs/rules/no-new-symbol
     'no-new-symbol': 'error',
+
+    // disallow specified names in exports
+    // https://eslint.org/docs/rules/no-restricted-exports
+    'no-restricted-exports': 'error',
   },
 };

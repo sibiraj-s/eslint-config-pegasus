@@ -39,6 +39,10 @@ module.exports = {
     // https://eslint.org/docs/rules/comma-spacing
     'comma-spacing': ['error', { before: false, after: true }],
 
+    // enforce consistent comma style
+    // https://eslint.org/docs/rules/comma-style
+    'comma-style': ['error', 'last'],
+
     // require or disallow newline at the end of files
     // https://eslint.org/docs/rules/eol-last
     'eol-last': ['error', 'always'],

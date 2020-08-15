@@ -55,13 +55,13 @@ module.exports = {
     // https://eslint.org/docs/rules/eol-last
     'eol-last': ['error', 'always'],
 
-    // enforce line breaks between arguments of a function call
-    // https://eslint.org/docs/rules/function-call-argument-newline
-    'function-call-argument-newline': ['error', 'consistent'],
-
     // require or disallow spacing between function identifiers and their invocations
     // https://eslint.org/docs/rules/func-call-spacing
     'func-call-spacing': ['error', 'never'],
+
+    // enforce line breaks between arguments of a function call
+    // https://eslint.org/docs/rules/function-call-argument-newline
+    'function-call-argument-newline': ['error', 'consistent'],
 
     // enforce spacing around the * in generator functions
     // https://eslint.org/docs/rules/generator-star-spacing

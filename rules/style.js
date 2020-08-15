@@ -59,6 +59,10 @@ module.exports = {
     // https://eslint.org/docs/rules/func-call-spacing
     'func-call-spacing': ['error', 'never'],
 
+    // require function names to match the name of the variable or property to which they are assigned
+    // https://eslint.org/docs/rules/func-name-matching
+    'func-name-matching': 'error',
+
     // enforce line breaks between arguments of a function call
     // https://eslint.org/docs/rules/function-call-argument-newline
     'function-call-argument-newline': ['error', 'consistent'],

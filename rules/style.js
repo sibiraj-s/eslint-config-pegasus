@@ -75,6 +75,10 @@ module.exports = {
     // https://eslint.org/docs/rules/function-call-argument-newline
     'function-call-argument-newline': ['error', 'consistent'],
 
+    // enforce consistent line breaks inside function parentheses
+    // https://eslint.org/docs/rules/function-paren-newline
+    'function-paren-newline': ['error', 'consistent'],
+
     // enforce consistent indentation
     // https://eslint.org/docs/rules/indent
     'indent': ['error', 2, {

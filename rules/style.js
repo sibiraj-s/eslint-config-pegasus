@@ -43,6 +43,10 @@ module.exports = {
     // https://eslint.org/docs/rules/comma-style
     'comma-style': ['error', 'last'],
 
+    // enforce consistent spacing inside computed property brackets
+    // https://eslint.org/docs/rules/computed-property-spacing
+    'computed-property-spacing': ['error', 'never'],
+
     // require or disallow newline at the end of files
     // https://eslint.org/docs/rules/eol-last
     'eol-last': ['error', 'always'],

@@ -47,6 +47,10 @@ module.exports = {
     // https://eslint.org/docs/rules/computed-property-spacing
     'computed-property-spacing': ['error', 'never'],
 
+    // enforce consistent naming when capturing the current execution context
+    // https://eslint.org/docs/rules/consistent-this
+    'consistent-this': 'error',
+
     // require or disallow newline at the end of files
     // https://eslint.org/docs/rules/eol-last
     'eol-last': ['error', 'always'],

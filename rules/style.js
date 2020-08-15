@@ -79,6 +79,10 @@ module.exports = {
     // https://eslint.org/docs/rules/function-paren-newline
     'function-paren-newline': ['error', 'consistent'],
 
+    // disallow specified identifiers
+    // https://eslint.org/docs/rules/id-denylist
+    'id-denylist': 'error',
+
     // enforce consistent indentation
     // https://eslint.org/docs/rules/indent
     'indent': ['error', 2, {

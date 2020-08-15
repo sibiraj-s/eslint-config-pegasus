@@ -63,6 +63,10 @@ module.exports = {
     // https://eslint.org/docs/rules/func-name-matching
     'func-name-matching': 'error',
 
+    // require or disallow named `function` expressions
+    // https://eslint.org/docs/rules/func-names
+    'func-names': ['error', 'always'],
+
     // enforce line breaks between arguments of a function call
     // https://eslint.org/docs/rules/function-call-argument-newline
     'function-call-argument-newline': ['error', 'consistent'],

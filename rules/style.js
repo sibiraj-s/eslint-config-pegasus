@@ -75,10 +75,6 @@ module.exports = {
     // https://eslint.org/docs/rules/function-call-argument-newline
     'function-call-argument-newline': ['error', 'consistent'],
 
-    // enforce spacing around the * in generator functions
-    // https://eslint.org/docs/rules/generator-star-spacing
-    'generator-star-spacing': ['error', 'after'],
-
     // enforce consistent indentation
     // https://eslint.org/docs/rules/indent
     'indent': ['error', 2, {

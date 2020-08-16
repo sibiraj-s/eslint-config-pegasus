@@ -323,6 +323,12 @@ module.exports = {
     // https://eslint.org/docs/rules/object-curly-spacing
     'object-curly-spacing': ['error', 'always'],
 
+    // enforce placing object properties on separate lines
+    // https://eslint.org/docs/rules/object-property-newline
+    'object-property-newline': ['error', {
+      allowAllPropertiesOnSameLine: true,
+    }],
+
     // requires operator at the beginning of the line in multiline statements
     // https://eslint.org/docs/rules/operator-linebreak
     'operator-linebreak': ['error', 'before', { overrides: { '=': 'none' } }],

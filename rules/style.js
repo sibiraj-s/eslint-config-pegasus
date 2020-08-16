@@ -383,6 +383,10 @@ module.exports = {
     // https://eslint.org/docs/rules/semi-spacing
     'semi-spacing': ['error', { before: false, after: true }],
 
+    // enforce location of semicolons
+    // https://eslint.org/docs/rules/semi-style
+    'semi-style': ['error', 'last'],
+
     // sequire Or Disallow Space Before Blocks
     // https://eslint.org/docs/rules/space-before-blocks
     'space-before-blocks': 'error',

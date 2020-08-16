@@ -267,6 +267,10 @@ module.exports = {
     // https://eslint.org/docs/rules/no-new-object
     'no-new-object': 'error',
 
+    // disallow the unary operators `++` and `--`
+    // https://eslint.org/docs/rules/no-plusplus
+    'no-plusplus': 'error',
+
     // disallow duplicate keys in object literals
     // https://eslint.org/docs/rules/no-dupe-keys
     'no-dupe-keys': 'error',

@@ -355,6 +355,10 @@ module.exports = {
       allowSingleLineBlocks: true,
     }],
 
+    // require or disallow padding lines between statements
+    // https://eslint.org/docs/rules/padding-line-between-statements
+    'padding-line-between-statements': 'off',
+
     // require or disallow use of semicolons instead of ASI
     // https://eslint.org/docs/rules/semi
     'semi': ['error', 'always'],

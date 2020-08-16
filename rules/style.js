@@ -193,7 +193,7 @@ module.exports = {
 
     // enforce a maximum number of statements allowed in function blocks
     // https://eslint.org/docs/rules/max-statements
-    'max-statements': ['error', 10],
+    'max-statements': ['error', 20],
 
     // enforce a maximum number of statements allowed per line
     // https://eslint.org/docs/rules/max-statements-per-line

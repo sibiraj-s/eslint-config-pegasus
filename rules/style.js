@@ -151,6 +151,10 @@ module.exports = {
     // https://eslint.org/docs/rules/lines-between-class-members
     'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: false }],
 
+    // enforce a maximum depth that blocks can be nested
+    // https://eslint.org/docs/rules/max-depth
+    'max-depth': ['error', 4],
+
     // specify the maximum length of a line in your program
     // https://eslint.org/docs/rules/max-len
     'max-len': ['error', 120, 2, {

@@ -337,6 +337,10 @@ module.exports = {
     // https://eslint.org/docs/rules/one-var-declaration-per-line
     'one-var-declaration-per-line': ['error', 'always'],
 
+    // require or disallow assignment operator shorthand where possible
+    // https://eslint.org/docs/rules/operator-assignment
+    'operator-assignment': ['error', 'always'],
+
     // requires operator at the beginning of the line in multiline statements
     // https://eslint.org/docs/rules/operator-linebreak
     'operator-linebreak': ['error', 'before', { overrides: { '=': 'none' } }],

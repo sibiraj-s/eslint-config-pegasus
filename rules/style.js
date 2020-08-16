@@ -447,5 +447,9 @@ module.exports = {
     // require or disallow Unicode byte order mark (BOM)
     // https://eslint.org/docs/rules/unicode-bom
     'unicode-bom': ['error', 'never'],
+
+    // require parenthesis around regex literals
+    // https://eslint.org/docs/rules/wrap-regex
+    'wrap-regex': 'error',
   },
 };

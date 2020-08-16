@@ -275,6 +275,10 @@ module.exports = {
     // https://eslint.org/docs/rules/no-restricted-syntax
     'no-restricted-syntax': 'error',
 
+    // disallow all tabs
+    // https://eslint.org/docs/rules/no-tabs
+    'no-tabs': 'error',
+
     // disallow duplicate keys in object literals
     // https://eslint.org/docs/rules/no-dupe-keys
     'no-dupe-keys': 'error',

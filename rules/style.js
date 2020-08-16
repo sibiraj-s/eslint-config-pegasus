@@ -121,6 +121,10 @@ module.exports = {
       ignoreComments: false,
     }],
 
+    // enforce the consistent use of either double or single quotes in JSX attributes
+    // https://eslint.org/docs/rules/jsx-quotes
+    'jsx-quotes': ['error', 'prefer-double'],
+
     // specify the maximum length of a line in your program
     // https://eslint.org/docs/rules/max-len
     'max-len': ['error', 120, 2, {

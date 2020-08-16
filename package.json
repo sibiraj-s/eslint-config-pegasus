@@ -34,10 +34,10 @@
     "confusing-browser-globals": "^1.0.9"
   },
   "devDependencies": {
-    "@types/jest": "^26.0.9",
-    "eslint": "^7.6.0",
+    "@types/jest": "^26.0.10",
+    "eslint": "^7.7.0",
     "husky": "^4.2.5",
-    "jest": "^26.2.2",
+    "jest": "^26.4.0",
     "lint-staged": "^10.2.11"
   }
 }

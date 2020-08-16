@@ -310,6 +310,15 @@ module.exports = {
     // https://eslint.org/docs/rules/nonblock-statement-body-position
     'nonblock-statement-body-position': ['error', 'beside'],
 
+    // enforce consistent line breaks inside braces
+    // https://eslint.org/docs/rules/object-curly-newline
+    'object-curly-newline': ['error', {
+      ObjectExpression: { minProperties: 4, multiline: true, consistent: true },
+      ObjectPattern: { minProperties: 4, multiline: true, consistent: true },
+      ImportDeclaration: { minProperties: 4, multiline: true, consistent: true },
+      ExportDeclaration: { minProperties: 4, multiline: true, consistent: true },
+    }],
+
     // enforce consistent spacing inside braces
     // https://eslint.org/docs/rules/object-curly-spacing
     'object-curly-spacing': ['error', 'always'],

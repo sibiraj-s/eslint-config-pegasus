@@ -263,6 +263,10 @@ module.exports = {
     // https://eslint.org/docs/rules/no-nested-ternary
     'no-nested-ternary': 'error',
 
+    // disallow `Object` constructors
+    // https://eslint.org/docs/rules/no-new-object
+    'no-new-object': 'error',
+
     // disallow duplicate keys in object literals
     // https://eslint.org/docs/rules/no-dupe-keys
     'no-dupe-keys': 'error',

@@ -287,6 +287,17 @@ module.exports = {
     // https://eslint.org/docs/rules/no-trailing-spaces
     'no-trailing-spaces': 'error',
 
+    // disallow dangling underscores in identifiers
+    // https://eslint.org/docs/rules/no-underscore-dangle
+    'no-underscore-dangle': ['error', {
+      allow: [],
+      allowAfterThis: false,
+      allowAfterSuper: false,
+      allowAfterThisConstructor: false,
+      allowFunctionParams: true,
+      enforceInMethodNames: true,
+    }],
+
     // disallow ternary operators when simpler alternatives exist
     // https://eslint.org/docs/rules/no-unneeded-ternary
     'no-unneeded-ternary': ['error', { defaultAssignment: false }],

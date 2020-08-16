@@ -129,6 +129,13 @@ module.exports = {
     // https://eslint.org/docs/rules/key-spacing
     'key-spacing': ['error', { beforeColon: false, afterColon: true }],
 
+    // enforce consistent spacing before and after keywords
+    // https://eslint.org/docs/rules/keyword-spacing
+    'keyword-spacing': ['error', {
+      before: true,
+      after: true,
+    }],
+
     // specify the maximum length of a line in your program
     // https://eslint.org/docs/rules/max-len
     'max-len': ['error', 120, 2, {

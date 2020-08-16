@@ -235,6 +235,10 @@ module.exports = {
     // https://eslint.org/docs/rules/no-inline-comments
     'no-inline-comments': 'error',
 
+    // disallow `if` statements as the only statement in `else` blocks
+    // https://eslint.org/docs/rules/no-lonely-if
+    'no-lonely-if': 'error',
+
     // disallow multiple empty lines, only one newline at the end, and no new lines at the beginning
     // https://eslint.org/docs/rules/no-multiple-empty-lines
     'no-multiple-empty-lines': ['error', { max: 1, maxBOF: 0, maxEOF: 0 }],

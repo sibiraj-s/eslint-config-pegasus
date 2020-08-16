@@ -83,6 +83,10 @@ module.exports = {
     // https://eslint.org/docs/rules/id-denylist
     'id-denylist': 'error',
 
+    // enforce minimum and maximum identifier lengths
+    // https://eslint.org/docs/rules/id-length
+    'id-length': 'error',
+
     // enforce consistent indentation
     // https://eslint.org/docs/rules/indent
     'indent': ['error', 2, {

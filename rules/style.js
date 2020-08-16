@@ -203,6 +203,10 @@ module.exports = {
     // https://eslint.org/docs/rules/multiline-comment-style
     'multiline-comment-style': 'off',
 
+    // enforce newlines between operands of ternary expressions
+    // https://eslint.org/docs/rules/multiline-ternary
+    'multiline-ternary': ['error', 'always-multiline'],
+
     // disallow multiple empty lines, only one newline at the end, and no new lines at the beginning
     // https://eslint.org/docs/rules/no-multiple-empty-lines
     'no-multiple-empty-lines': ['error', { max: 1, maxBOF: 0, maxEOF: 0 }],

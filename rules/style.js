@@ -329,6 +329,10 @@ module.exports = {
       allowAllPropertiesOnSameLine: true,
     }],
 
+    // enforce variables to be declared either together or separately in functions
+    // https://eslint.org/docs/rules/one-var
+    'one-var': ['error', 'never'],
+
     // requires operator at the beginning of the line in multiline statements
     // https://eslint.org/docs/rules/operator-linebreak
     'operator-linebreak': ['error', 'before', { overrides: { '=': 'none' } }],

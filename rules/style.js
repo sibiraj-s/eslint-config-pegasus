@@ -255,6 +255,10 @@ module.exports = {
     // https://eslint.org/docs/rules/no-multiple-empty-lines
     'no-multiple-empty-lines': ['error', { max: 1, maxBOF: 0, maxEOF: 0 }],
 
+    // disallow negated conditions
+    // https://eslint.org/docs/rules/no-negated-condition
+    'no-negated-condition': 'error',
+
     // disallow duplicate keys in object literals
     // https://eslint.org/docs/rules/no-dupe-keys
     'no-dupe-keys': 'error',

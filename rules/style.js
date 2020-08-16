@@ -219,6 +219,10 @@ module.exports = {
     // https://eslint.org/docs/rules/newline-per-chained-call
     'newline-per-chained-call': ['error', { ignoreChainWithDepth: 2 }],
 
+    // disallow `Array` constructors
+    // https://eslint.org/docs/rules/no-array-constructor
+    'no-array-constructor': 'error',
+
     // disallow multiple empty lines, only one newline at the end, and no new lines at the beginning
     // https://eslint.org/docs/rules/no-multiple-empty-lines
     'no-multiple-empty-lines': ['error', { max: 1, maxBOF: 0, maxEOF: 0 }],

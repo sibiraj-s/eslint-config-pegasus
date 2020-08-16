@@ -271,6 +271,10 @@ module.exports = {
     // https://eslint.org/docs/rules/no-plusplus
     'no-plusplus': 'error',
 
+    // disallow specified syntax
+    // https://eslint.org/docs/rules/no-restricted-syntax
+    'no-restricted-syntax': 'error',
+
     // disallow duplicate keys in object literals
     // https://eslint.org/docs/rules/no-dupe-keys
     'no-dupe-keys': 'error',

@@ -123,7 +123,11 @@ module.exports = {
 
     // enforce the consistent use of either double or single quotes in JSX attributes
     // https://eslint.org/docs/rules/jsx-quotes
-    'jsx-quotes': ['error', 'prefer-double'],
+    'jsx-quotes': ['error', 'prefer-single'],
+
+    // enforce consistent spacing between keys and values in object literal properties
+    // https://eslint.org/docs/rules/key-spacing
+    'key-spacing': ['error', { beforeColon: false, afterColon: true }],
 
     // specify the maximum length of a line in your program
     // https://eslint.org/docs/rules/max-len

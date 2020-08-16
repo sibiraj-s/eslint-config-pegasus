@@ -206,7 +206,7 @@ module.exports = {
 
     // disallow certain properties on certain objects
     // https://eslint.org/docs/rules/no-restricted-properties
-    'no-restricted-properties':'error',
+    'no-restricted-properties': 'error',
 
     // disallow assignment operators in `return` statements
     // https://eslint.org/docs/rules/no-return-assign

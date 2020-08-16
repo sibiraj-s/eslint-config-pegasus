@@ -144,6 +144,9 @@ module.exports = {
     // https://eslint.org/docs/rules/linebreak-style
     'linebreak-style': ['error', 'unix'],
 
+    // require empty lines around comments
+    'lines-around-comment': 'error',
+
     // specify the maximum length of a line in your program
     // https://eslint.org/docs/rules/max-len
     'max-len': ['error', 120, 2, {

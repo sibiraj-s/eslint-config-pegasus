@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## v1.3.2 (2020-08-16)
+
+- update rule max-statements ([004a1e9](https://github.com/sibiraj-s/eslint-config-pegasus/commit/004a1e9))
+- update rule max-statements-per-line ([c31772a](https://github.com/sibiraj-s/eslint-config-pegasus/commit/c31772a))
+
 ## v1.3.1 (2020-08-16)
 
 - update rule func-names ([bcb8172](https://github.com/sibiraj-s/eslint-config-pegasus/commit/bcb8172))

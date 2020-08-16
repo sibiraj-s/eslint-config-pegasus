@@ -407,13 +407,13 @@ module.exports = {
       asyncArrow: 'always',
     }],
 
-    // require spacing around infix operators
-    // https://eslint.org/docs/rules/space-infix-ops
-    'space-infix-ops': 'error',
-
     // disallow or enforce spaces inside of parentheses
     // https://eslint.org/docs/rules/space-in-parens
     'space-in-parens': ['error', 'never'],
+
+    // require spacing around infix operators
+    // https://eslint.org/docs/rules/space-infix-ops
+    'space-infix-ops': 'error',
 
     // require or disallow spaces before/after unary operators
     // https://eslint.org/docs/rules/space-unary-ops

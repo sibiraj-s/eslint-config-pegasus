@@ -207,6 +207,10 @@ module.exports = {
     // https://eslint.org/docs/rules/multiline-ternary
     'multiline-ternary': ['error', 'always-multiline'],
 
+    // require constructor names to begin with a capital letter
+    // https://eslint.org/docs/rules/new-cap
+    'new-cap': 'error',
+
     // disallow multiple empty lines, only one newline at the end, and no new lines at the beginning
     // https://eslint.org/docs/rules/no-multiple-empty-lines
     'no-multiple-empty-lines': ['error', { max: 1, maxBOF: 0, maxEOF: 0 }],

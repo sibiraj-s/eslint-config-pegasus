@@ -136,6 +136,10 @@ module.exports = {
       after: true,
     }],
 
+    // enforce position of line comments
+    // https://eslint.org/docs/rules/line-comment-position
+    'line-comment-position': ['error', { position: 'above' }],
+
     // specify the maximum length of a line in your program
     // https://eslint.org/docs/rules/max-len
     'max-len': ['error', 120, 2, {

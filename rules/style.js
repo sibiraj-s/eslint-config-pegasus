@@ -65,7 +65,7 @@ module.exports = {
 
     // require or disallow named `function` expressions
     // https://eslint.org/docs/rules/func-names
-    'func-names': ['error', 'always'],
+    'func-names': ['error', 'as-needed'],
 
     // enforce the consistent use of either `function` declarations or expressions
     // https://eslint.org/docs/rules/func-style

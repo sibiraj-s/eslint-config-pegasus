@@ -439,5 +439,8 @@ module.exports = {
     // enforce spacing around colons of switch statements
     // https://eslint.org/docs/rules/switch-colon-spacing
     'switch-colon-spacing': ['error', { after: true, before: false }],
+
+    // require or disallow spacing between template tags and their literals
+    // https://eslint.org/docs/rules/template-tag-spacing
   },
 };

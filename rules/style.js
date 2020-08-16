@@ -391,6 +391,10 @@ module.exports = {
     // https://eslint.org/docs/rules/sort-keys
     'sort-keys': 'off',
 
+    // require variables within the same declaration block to be sorted
+    // https://eslint.org/docs/rules/sort-vars
+    'sort-vars': 'off',
+
     // sequire Or Disallow Space Before Blocks
     // https://eslint.org/docs/rules/space-before-blocks
     'space-before-blocks': 'error',

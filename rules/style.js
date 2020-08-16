@@ -89,7 +89,7 @@ module.exports = {
 
     // require identifiers to match a specified regular expression
     // https://eslint.org/docs/rules/id-match
-    'id-match': 'error',
+    'id-match': 'off',
 
     // enforce consistent indentation
     // https://eslint.org/docs/rules/indent

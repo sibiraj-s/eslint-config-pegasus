@@ -174,6 +174,15 @@ module.exports = {
       skipComments: true,
     }],
 
+    // enforce a maximum number of line of code in a function
+    // https://eslint.org/docs/rules/max-lines-per-function
+    'max-lines-per-function': ['error', {
+      max: 50,
+      skipBlankLines: true,
+      skipComments: true,
+      IIFEs: true,
+    }],
+
     // disallow multiple empty lines, only one newline at the end, and no new lines at the beginning
     // https://eslint.org/docs/rules/no-multiple-empty-lines
     'no-multiple-empty-lines': ['error', { max: 1, maxBOF: 0, maxEOF: 0 }],

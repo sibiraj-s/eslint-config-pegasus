@@ -87,6 +87,10 @@ module.exports = {
     // https://eslint.org/docs/rules/id-length
     'id-length': 'error',
 
+    // require identifiers to match a specified regular expression
+    // https://eslint.org/docs/rules/id-match
+    'id-match': 'error',
+
     // enforce consistent indentation
     // https://eslint.org/docs/rules/indent
     'indent': ['error', 2, {

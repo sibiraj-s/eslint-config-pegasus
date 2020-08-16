@@ -145,6 +145,7 @@ module.exports = {
     'linebreak-style': ['error', 'unix'],
 
     // require empty lines around comments
+    // https://eslint.org/docs/rules/lines-around-comment
     'lines-around-comment': 'error',
 
     // require or disallow an empty line between class members

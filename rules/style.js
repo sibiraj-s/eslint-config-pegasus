@@ -442,5 +442,10 @@ module.exports = {
 
     // require or disallow spacing between template tags and their literals
     // https://eslint.org/docs/rules/template-tag-spacing
+    'template-tag-spacing': ['error', 'never'],
+
+    // require or disallow Unicode byte order mark (BOM)
+    // https://eslint.org/docs/rules/unicode-bom
+    'unicode-bom': ['error', 'never'],
   },
 };

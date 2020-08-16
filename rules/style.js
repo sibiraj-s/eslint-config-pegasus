@@ -359,6 +359,10 @@ module.exports = {
     // https://eslint.org/docs/rules/padding-line-between-statements
     'padding-line-between-statements': 'off',
 
+    // disallow the use of `Math.pow` in favor of the `**` operator
+    // https://eslint.org/docs/rules/prefer-exponentiation-operator
+    'prefer-exponentiation-operator': 'error',
+
     // require or disallow use of semicolons instead of ASI
     // https://eslint.org/docs/rules/semi
     'semi': ['error', 'always'],

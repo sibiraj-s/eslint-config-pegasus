@@ -166,6 +166,14 @@ module.exports = {
       ignoreUrls: true,
     }],
 
+    // enforce a maximum number of lines per file
+    // https://eslint.org/docs/rules/max-lines
+    'max-lines': ['error', {
+      max: 500,
+      skipBlankLines: true,
+      skipComments: true,
+    }],
+
     // disallow multiple empty lines, only one newline at the end, and no new lines at the beginning
     // https://eslint.org/docs/rules/no-multiple-empty-lines
     'no-multiple-empty-lines': ['error', { max: 1, maxBOF: 0, maxEOF: 0 }],

@@ -231,6 +231,10 @@ module.exports = {
     // https://eslint.org/docs/rules/no-continue
     'no-continue': 'error',
 
+    // disallow inline comments after code
+    // https://eslint.org/docs/rules/no-inline-comments
+    'no-inline-comments': 'error',
+
     // disallow multiple empty lines, only one newline at the end, and no new lines at the beginning
     // https://eslint.org/docs/rules/no-multiple-empty-lines
     'no-multiple-empty-lines': ['error', { max: 1, maxBOF: 0, maxEOF: 0 }],

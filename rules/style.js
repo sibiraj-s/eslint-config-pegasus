@@ -197,7 +197,7 @@ module.exports = {
 
     // enforce a maximum number of statements allowed per line
     // https://eslint.org/docs/rules/max-statements-per-line
-    'max-statements-per-line': ['error', { max: 1 }],
+    'max-statements-per-line': ['error', { max: 2 }],
 
     // enforce a particular style for multiline comments
     // https://eslint.org/docs/rules/multiline-comment-style

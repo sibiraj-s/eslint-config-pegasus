@@ -247,6 +247,10 @@ module.exports = {
     // https://eslint.org/docs/rules/no-mixed-spaces-and-tabs
     'no-mixed-spaces-and-tabs': 'error',
 
+    // disallow use of chained assignment expressions
+    // https://eslint.org/docs/rules/no-multi-assign
+    'no-multi-assign': 'error',
+
     // disallow multiple empty lines, only one newline at the end, and no new lines at the beginning
     // https://eslint.org/docs/rules/no-multiple-empty-lines
     'no-multiple-empty-lines': ['error', { max: 1, maxBOF: 0, maxEOF: 0 }],

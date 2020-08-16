@@ -279,6 +279,10 @@ module.exports = {
     // https://eslint.org/docs/rules/no-tabs
     'no-tabs': 'error',
 
+    // disallow ternary operators
+    // https://eslint.org/docs/rules/no-ternary
+    'no-ternary': 'off',
+
     // disallow duplicate keys in object literals
     // https://eslint.org/docs/rules/no-dupe-keys
     'no-dupe-keys': 'error',

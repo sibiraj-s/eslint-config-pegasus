@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## v1.3.3 (2020-08-16)
+
+- disable rule no-negated-condition ([424f9c4](https://github.com/sibiraj-s/eslint-config-pegasus/commit/424f9c4))
+
 ## v1.3.2 (2020-08-16)
 
 - update rule max-statements ([004a1e9](https://github.com/sibiraj-s/eslint-config-pegasus/commit/004a1e9))

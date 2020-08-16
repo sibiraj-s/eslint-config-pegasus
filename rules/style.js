@@ -81,7 +81,7 @@ module.exports = {
 
     // disallow specified identifiers
     // https://eslint.org/docs/rules/id-denylist
-    'id-denylist': 'error',
+    'id-denylist': 'off',
 
     // enforce minimum and maximum identifier lengths
     // https://eslint.org/docs/rules/id-length

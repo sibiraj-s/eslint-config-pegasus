@@ -345,6 +345,16 @@ module.exports = {
     // https://eslint.org/docs/rules/operator-linebreak
     'operator-linebreak': ['error', 'before', { overrides: { '=': 'none' } }],
 
+    // require or disallow padding within blocks
+    // https://eslint.org/docs/rules/padded-blocks
+    'padded-blocks': ['error', {
+      blocks: 'never',
+      classes: 'never',
+      switches: 'never',
+    }, {
+      allowSingleLineBlocks: true,
+    }],
+
     // require or disallow use of semicolons instead of ASI
     // https://eslint.org/docs/rules/semi
     'semi': ['error', 'always'],

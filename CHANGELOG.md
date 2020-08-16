@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## v1.3.1 (2020-08-16)
+
+- update rule func-names ([bcb8172](https://github.com/sibiraj-s/eslint-config-pegasus/commit/bcb8172))
+
 ## v1.3.0 (2020-08-16)
 
 - add style based rules ([558e896...38e40f3](https://github.com/sibiraj-s/eslint-config-pegasus/compare/558e896...38e40f3))

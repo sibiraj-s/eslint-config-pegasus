@@ -368,6 +368,13 @@ module.exports = {
     // https://eslint.org/docs/rules/prefer-object-spread
     'prefer-object-spread': 'error',
 
+    // require quotes around object literal property names
+    // https://eslint.org/docs/rules/quote-props.html
+    'quote-props': ['error', 'consistent-as-needed'],
+
+    // specify whether double or single quotes should be used
+    'quotes': ['error', 'single', { avoidEscape: true }],
+
     // require or disallow use of semicolons instead of ASI
     // https://eslint.org/docs/rules/semi
     'semi': ['error', 'always'],
@@ -416,12 +423,5 @@ module.exports = {
     // enforce spacing around colons of switch statements
     // https://eslint.org/docs/rules/switch-colon-spacing
     'switch-colon-spacing': ['error', { after: true, before: false }],
-
-    // specify whether double or single quotes should be used
-    'quotes': ['error', 'single', { avoidEscape: true }],
-
-    // require quotes around object literal property names
-    // https://eslint.org/docs/rules/quote-props.html
-    'quote-props': ['error', 'consistent-as-needed'],
   },
 };

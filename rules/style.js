@@ -283,10 +283,6 @@ module.exports = {
     // https://eslint.org/docs/rules/no-ternary
     'no-ternary': 'off',
 
-    // disallow duplicate keys in object literals
-    // https://eslint.org/docs/rules/no-dupe-keys
-    'no-dupe-keys': 'error',
-
     // disallow trailing whitespace at the end of lines
     // https://eslint.org/docs/rules/no-trailing-spaces
     'no-trailing-spaces': 'error',

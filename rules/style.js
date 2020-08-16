@@ -91,6 +91,10 @@ module.exports = {
     // https://eslint.org/docs/rules/id-match
     'id-match': 'off',
 
+    // enforce the location of arrow function bodies
+    // https://eslint.org/docs/rules/implicit-arrow-linebreak
+    'implicit-arrow-linebreak': ['error', 'beside'],
+
     // enforce consistent indentation
     // https://eslint.org/docs/rules/indent
     'indent': ['error', 2, {

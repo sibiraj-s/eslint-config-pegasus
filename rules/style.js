@@ -195,6 +195,10 @@ module.exports = {
     // https://eslint.org/docs/rules/max-statements
     'max-statements': ['error', 10],
 
+    // enforce a maximum number of statements allowed per line
+    // https://eslint.org/docs/rules/max-statements-per-line
+    'max-statements-per-line': ['error', { max: 1 }],
+
     // disallow multiple empty lines, only one newline at the end, and no new lines at the beginning
     // https://eslint.org/docs/rules/no-multiple-empty-lines
     'no-multiple-empty-lines': ['error', { max: 1, maxBOF: 0, maxEOF: 0 }],

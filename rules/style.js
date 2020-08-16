@@ -85,7 +85,7 @@ module.exports = {
 
     // enforce minimum and maximum identifier lengths
     // https://eslint.org/docs/rules/id-length
-    'id-length': 'error',
+    'id-length': 'off',
 
     // require identifiers to match a specified regular expression
     // https://eslint.org/docs/rules/id-match

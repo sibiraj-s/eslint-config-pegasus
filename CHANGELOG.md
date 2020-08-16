@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## v1.3.0 (2020-08-16)
+
+- add style based rules ([558e896...38e40f3](https://github.com/sibiraj-s/eslint-config-pegasus/compare/558e896...38e40f3))
+- add es6 rules ([5b9e29f...e2e76ea](https://github.com/sibiraj-s/eslint-config-pegasus/compare/5b9e29f...e2e76ea))
+- add rules for best-practices ([8cd0718...fbf2e12](https://github.com/sibiraj-s/eslint-config-pegasus/compare/8cd0718...fbf2e12))
+- add rules that relate to variable declarations ([2bced53...74ab5a1](https://github.com/sibiraj-s/eslint-config-pegasus/compare/2bced53...74ab5a1))
+- add rules to avoid common errors ([9bdc30d...b8e5232](https://github.com/sibiraj-s/eslint-config-pegasus/compare/9bdc30d...b8e5232))
+
 ## v1.2.0 (2020-08-07)
 
 **New Rules**

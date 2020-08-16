@@ -183,6 +183,10 @@ module.exports = {
       IIFEs: true,
     }],
 
+    // enforce a maximum depth that callbacks can be nested
+    // https://eslint.org/docs/rules/max-nested-callbacks
+    'max-nested-callbacks': ['error', 3],
+
     // disallow multiple empty lines, only one newline at the end, and no new lines at the beginning
     // https://eslint.org/docs/rules/no-multiple-empty-lines
     'no-multiple-empty-lines': ['error', { max: 1, maxBOF: 0, maxEOF: 0 }],

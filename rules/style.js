@@ -215,6 +215,10 @@ module.exports = {
     // https://eslint.org/docs/rules/new-parens
     'new-parens': 'error',
 
+    // require a newline after each call in a method chain
+    // https://eslint.org/docs/rules/newline-per-chained-call
+    'newline-per-chained-call': ['error', { ignoreChainWithDepth: 2 }],
+
     // disallow multiple empty lines, only one newline at the end, and no new lines at the beginning
     // https://eslint.org/docs/rules/no-multiple-empty-lines
     'no-multiple-empty-lines': ['error', { max: 1, maxBOF: 0, maxEOF: 0 }],

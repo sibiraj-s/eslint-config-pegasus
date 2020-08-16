@@ -221,7 +221,7 @@ module.exports = {
 
     // require a newline after each call in a method chain
     // https://eslint.org/docs/rules/newline-per-chained-call
-    'newline-per-chained-call': ['error', { ignoreChainWithDepth: 2 }],
+    'newline-per-chained-call': ['error', { ignoreChainWithDepth: 4 }],
 
     // disallow `Array` constructors
     // https://eslint.org/docs/rules/no-array-constructor

@@ -333,6 +333,10 @@ module.exports = {
     // https://eslint.org/docs/rules/one-var
     'one-var': ['error', 'never'],
 
+    // require or disallow newlines around variable declarations
+    // https://eslint.org/docs/rules/one-var-declaration-per-line
+    'one-var-declaration-per-line': ['error', 'always'],
+
     // requires operator at the beginning of the line in multiline statements
     // https://eslint.org/docs/rules/operator-linebreak
     'operator-linebreak': ['error', 'before', { overrides: { '=': 'none' } }],

@@ -199,6 +199,10 @@ module.exports = {
     // https://eslint.org/docs/rules/max-statements-per-line
     'max-statements-per-line': ['error', { max: 1 }],
 
+    // enforce a particular style for multiline comments
+    // https://eslint.org/docs/rules/multiline-comment-style
+    'multiline-comment-style': 'off',
+
     // disallow multiple empty lines, only one newline at the end, and no new lines at the beginning
     // https://eslint.org/docs/rules/no-multiple-empty-lines
     'no-multiple-empty-lines': ['error', { max: 1, maxBOF: 0, maxEOF: 0 }],

@@ -243,6 +243,10 @@ module.exports = {
     // https://eslint.org/docs/rules/no-mixed-operators
     'no-mixed-operators': 'error',
 
+    // disallow mixed spaces and tabs for indentation
+    // https://eslint.org/docs/rules/no-mixed-spaces-and-tabs
+    'no-mixed-spaces-and-tabs': 'error',
+
     // disallow multiple empty lines, only one newline at the end, and no new lines at the beginning
     // https://eslint.org/docs/rules/no-multiple-empty-lines
     'no-multiple-empty-lines': ['error', { max: 1, maxBOF: 0, maxEOF: 0 }],

@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## v1.3.4 (2020-08-17)
+
+- disable rule rule new-cap ([39f5832](https://github.com/sibiraj-s/eslint-config-pegasus/commit/39f5832))
+- disable rule newline-per-chained-call ([549251d](https://github.com/sibiraj-s/eslint-config-pegasus/commit/549251d))
+- disable rule max-statements ([547ba2b](https://github.com/sibiraj-s/eslint-config-pegasus/commit/547ba2b))
+
 ## v1.3.3 (2020-08-16)
 
 - disable rule no-negated-condition ([424f9c4](https://github.com/sibiraj-s/eslint-config-pegasus/commit/424f9c4))

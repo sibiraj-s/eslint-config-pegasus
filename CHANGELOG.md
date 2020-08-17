@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## v1.3.5 (2020-08-17)
+
+- update rule complexity ([9895cba](https://github.com/sibiraj-s/eslint-config-pegasus/commit/9895cba))
+
 ## v1.3.4 (2020-08-17)
 
 - update rule new-cap ([39f5832](https://github.com/sibiraj-s/eslint-config-pegasus/commit/39f5832))

@@ -18,7 +18,7 @@ module.exports = {
 
     // limit cyclomatic complexity
     // https://eslint.org/docs/rules/complexity
-    'complexity': ['error', 10],
+    'complexity': ['error', 20],
 
     // require return statements to either always or never specify values
     // https://eslint.org/docs/rules/consistent-return

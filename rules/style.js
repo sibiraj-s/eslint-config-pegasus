@@ -237,7 +237,7 @@ module.exports = {
 
     // disallow inline comments after code
     // https://eslint.org/docs/rules/no-inline-comments
-    'no-inline-comments': 'error',
+    'no-inline-comments': 'off',
 
     // disallow `if` statements as the only statement in `else` blocks
     // https://eslint.org/docs/rules/no-lonely-if

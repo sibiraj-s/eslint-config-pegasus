@@ -173,17 +173,5 @@ module.exports = {
     // enforce comparing typeof expressions against valid strings
     // https://eslint.org/docs/rules/valid-typeof
     'valid-typeof': 'error',
-
-    // disallow variable declarations from shadowing variables declared in the outer scope
-    // https://eslint.org/docs/rules/no-shadow
-    'no-shadow': 'error',
-
-    // disallow Shadowing of Restricted Names
-    // https://eslint.org/docs/rules/no-shadow-restricted-names
-    'no-shadow-restricted-names': 'error',
-
-    // disallow Undeclared Variables
-    // https://eslint.org/docs/rules/no-undef
-    'no-undef': 'error',
   },
 };

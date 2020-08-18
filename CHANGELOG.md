@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## v1.3.6 (2020-08-17)
+
+- update rule no-extra-parens ([6cbc30a](https://github.com/sibiraj-s/eslint-config-pegasus/commit/6cbc30a))
+- disable rule no-inline-comments ([4c70b23](https://github.com/sibiraj-s/eslint-config-pegasus/commit/4c70b23))
+- remove duplicate rules ([c0e3b29](https://github.com/sibiraj-s/eslint-config-pegasus/commit/c0e3b29))
+- disable rule no-undefined ([2886278](https://github.com/sibiraj-s/eslint-config-pegasus/commit/2886278))
+
 ## v1.3.5 (2020-08-17)
 
 - update rule complexity ([9895cba](https://github.com/sibiraj-s/eslint-config-pegasus/commit/9895cba))

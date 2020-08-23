@@ -39,3 +39,14 @@ See [Eslint's Shareable Configs](https://eslint.org/docs/developer-guide/shareab
   ]
 }
 ```
+
+For node environment
+
+```json
+{
+  "extends": [
+    "pegasus",
+    "pegasus/node",
+  ]
+}
+```

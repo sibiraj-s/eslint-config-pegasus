@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## v1.3.7 (2020-08-23)
+
+- add rules for nodejs environment ([429bd6c](https://github.com/sibiraj-s/eslint-config-pegasus/commit/429bd6c))
+
 ## v1.3.6 (2020-08-17)
 
 - update rule no-extra-parens ([6cbc30a](https://github.com/sibiraj-s/eslint-config-pegasus/commit/6cbc30a))

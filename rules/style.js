@@ -377,6 +377,7 @@ module.exports = {
     'quote-props': ['error', 'consistent-as-needed'],
 
     // specify whether double or single quotes should be used
+    // https://eslint.org/docs/rules/quotes
     'quotes': ['error', 'single', { avoidEscape: true }],
 
     // require or disallow use of semicolons instead of ASI

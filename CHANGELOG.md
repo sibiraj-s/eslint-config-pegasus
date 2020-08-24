@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## v1.3.9 (2020-08-24)
+
+- publish typescript rules ([e745340](https://github.com/sibiraj-s/eslint-config-pegasus/commit/e745340))
+
 ## v1.3.8 (2020-08-24)
 
 - add rules for typescript ([f6a4510](https://github.com/sibiraj-s/eslint-config-pegasus/commit/f6a4510))

@@ -32,21 +32,16 @@ npm install eslint eslint-config-pegasus --save-dev
 
 See [Eslint's Shareable Configs](https://eslint.org/docs/developer-guide/shareable-configs) for more information.
 
-```json
-{
-  "extends": [
-    "pegasus"
-  ]
-}
+```yml
+extends:
+  - pegasus
 ```
 
-For node environment
+**Additional rules**
 
-```json
-{
-  "extends": [
-    "pegasus",
-    "pegasus/node",
-  ]
-}
+```yml
+extends:
+  - pegasus
+  - pegasus/node # nodejs
+  - pegasus/typescript # typescript
 ```

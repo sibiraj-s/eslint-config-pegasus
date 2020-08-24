@@ -32,7 +32,8 @@
     "eslint": "^7.0.0"
   },
   "dependencies": {
-    "confusing-browser-globals": "^1.0.9"
+    "confusing-browser-globals": "^1.0.9",
+    "eslint-config-ts-compat": "^1.0.0"
   },
   "devDependencies": {
     "@types/jest": "^26.0.10",

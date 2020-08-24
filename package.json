@@ -26,6 +26,7 @@
     "CHANGELOG.md",
     "rules",
     "node.js",
+    "typescript.js",
     "index.js"
   ],
   "peerDependencies": {

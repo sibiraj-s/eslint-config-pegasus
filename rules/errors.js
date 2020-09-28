@@ -76,6 +76,7 @@ module.exports = {
     // https://eslint.org/docs/rules/no-extra-parens
     'no-extra-parens': ['error', 'all', {
       nestedBinaryExpressions: false,
+      enforceForArrowConditionals: false,
     }],
 
     // disallow unnecessary semicolons

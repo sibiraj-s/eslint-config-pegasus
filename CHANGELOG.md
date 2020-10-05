@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## v1.3.10 (2020-10-05)
+
+- update rule max-lines-per-function ([028e33d](https://github.com/sibiraj-s/eslint-config-pegasus/commit/028e33d))
+- update rule no-extra-parens ([327e9f7](https://github.com/sibiraj-s/eslint-config-pegasus/commit/327e9f7))
+- disable rule arrow-body-style ([b01c619](https://github.com/sibiraj-s/eslint-config-pegasus/commit/b01c619))
+
 ## v1.3.9 (2020-08-24)
 
 - publish typescript rules ([e745340](https://github.com/sibiraj-s/eslint-config-pegasus/commit/e745340))

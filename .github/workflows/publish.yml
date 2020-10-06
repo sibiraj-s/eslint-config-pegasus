@@ -3,7 +3,9 @@ name: NPM Publish
 env:
   NODE_VERSION: 12
 
-on: workflow_dispatch
+on:
+  push:
+    tags: v*
 
 jobs:
   publish:

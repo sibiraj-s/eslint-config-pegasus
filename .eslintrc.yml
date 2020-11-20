@@ -1,8 +1,9 @@
-extends: './index.js'
+extends: 
+  - './index.js'
+  - './node.js'
 
 ignorePatterns:
   - fixtures/
 
 env:
-  node: true
   jest: true

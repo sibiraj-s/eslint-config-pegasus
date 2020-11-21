@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## v2.0.0 (2020-11-21)
+
+- enforce `no-console` rule ([6ecf923](https://github.com/sibiraj-s/eslint-config-pegasus/commit/6ecf923))
+- add typescript rules ([8e9a2ce](https://github.com/sibiraj-s/eslint-config-pegasus/commit/8e9a2ce))
+- update to node.js v14 in ci ([1f28c53](https://github.com/sibiraj-s/eslint-config-pegasus/commit/1f28c53))
+- setup @actions/cache ([103438d](https://github.com/sibiraj-s/eslint-config-pegasus/commit/103438d))
+- update dependencies and devDependencies ([43f02b4](https://github.com/sibiraj-s/eslint-config-pegasus/commit/43f02b4))
+
 ## v1.3.10 (2020-10-05)
 
 - update rule max-lines-per-function ([028e33d](https://github.com/sibiraj-s/eslint-config-pegasus/commit/028e33d))

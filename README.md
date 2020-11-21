@@ -39,9 +39,18 @@ extends:
 
 **Additional rules**
 
+For Node.js
+
 ```yml
 extends:
   - pegasus
-  - pegasus/node # nodejs
-  - pegasus/typescript # typescript
+  - pegasus/node
+```
+
+For Typescript
+
+```yml
+extends:
+  - pegasus
+  - pegasus/typescript
 ```

@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## v2.0.1 (2020-12-14)
+
+- bump dependencies and devDependencies ([5efc8a8](https://github.com/sibiraj-s/eslint-config-pegasus/commit/5efc8a8))
+- update LICENSE ([ce899a6](https://github.com/sibiraj-s/eslint-config-pegasus/commit/ce899a6))
+
 ## v2.0.0 (2020-11-21)
 
 - enforce `no-console` rule ([6ecf923](https://github.com/sibiraj-s/eslint-config-pegasus/commit/6ecf923))

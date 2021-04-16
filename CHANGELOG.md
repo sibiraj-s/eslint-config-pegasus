@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## v2.0.2 (2021-04-16)
+
+- bump dependencies and devDependencies ([098e033](https://github.com/sibiraj-s/eslint-config-pegasus/commit/098e033))
+- ignore parens around multi-line jsx ([8dd7d07](https://github.com/sibiraj-s/eslint-config-pegasus/commit/8dd7d07))
+
 ## v2.0.1 (2020-12-14)
 
 - bump dependencies and devDependencies ([5efc8a8](https://github.com/sibiraj-s/eslint-config-pegasus/commit/5efc8a8))

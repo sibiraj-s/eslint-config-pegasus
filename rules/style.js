@@ -146,7 +146,7 @@ module.exports = {
 
     // require empty lines around comments
     // https://eslint.org/docs/rules/lines-around-comment
-    'lines-around-comment': 'error',
+    'lines-around-comment': 'off',
 
     // require or disallow an empty line between class members
     // https://eslint.org/docs/rules/lines-between-class-members

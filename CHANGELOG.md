@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## v2.0.3 (2021-05-24)
+
+- bump dependencies and devDependencies ([c8709f8](https://github.com/sibiraj-s/eslint-config-pegasus/commit/c8709f8))
+- disable lines-around-comment ([ea3d0ad](https://github.com/sibiraj-s/eslint-config-pegasus/commit/ea3d0ad))
+
 ## v2.0.2 (2021-04-16)
 
 - bump dependencies and devDependencies ([098e033](https://github.com/sibiraj-s/eslint-config-pegasus/commit/098e033))

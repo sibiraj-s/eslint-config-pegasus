@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## v2.1.0 (2021-06-21)
+
+- add typescript rule `no-shadow` ([7b680f0](https://github.com/sibiraj-s/eslint-config-pegasus/commit/7b680f0))
+
 ## v2.0.3 (2021-05-24)
 
 - bump dependencies and devDependencies ([c8709f8](https://github.com/sibiraj-s/eslint-config-pegasus/commit/c8709f8))

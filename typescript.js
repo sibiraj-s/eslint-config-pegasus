@@ -152,6 +152,11 @@ module.exports = {
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-useless-constructor.md
     '@typescript-eslint/no-useless-constructor': es6.rules['no-useless-constructor'],
 
+    // disallow variable declarations from shadowing variables declared in the outer scope
+    // https://eslint.org/docs/rules/no-shadow
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-shadow.md
+    '@typescript-eslint/no-shadow': variables.rules['no-shadow'],
+
     // enforce the consistent use of either backticks, double, or single quotes
     // https://eslint.org/docs/rules/quotes
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/quotes.md

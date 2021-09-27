@@ -1,6 +1,11 @@
 # CHANGELOG
 
-All notable changes to this project will be documented in this file.
+All notable changes to this project are documented in this file.
+
+## v2.1.1 (2021-09-27)
+
+- disable line-comment-position ([6291648](https://github.com/sibiraj-s/eslint-config-pegasus/commit/6291648))
+- bump dependencies and devDependencies ([77e607b](https://github.com/sibiraj-s/eslint-config-pegasus/commit/77e607b))
 
 ## v2.1.0 (2021-06-21)
 

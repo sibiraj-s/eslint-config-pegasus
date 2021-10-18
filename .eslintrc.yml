@@ -1,11 +1,14 @@
 root: true
 
-extends: 
-  - './index.js'
-  - './node.js'
+extends:
+  - pegasus
+  - pegasus/node
 
-ignorePatterns:
-  - fixtures/
-
-env:
-  jest: true
+overrides:
+  - files:
+      - 'test/fixtures/ts/*.ts'
+    extends:
+      - pegasus/typescript
+    parserOptions:
+      project: tsconfig.json
+      tsconfigRootDir: test/fixtures/ts

@@ -10,11 +10,15 @@
   "engines": {
     "node": ">=16"
   },
-  "main": "index.js",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./node": "./node.js",
+    "./typescript": "./typescript.js"
+  },
   "scripts": {
-    "lint": "eslint .",
-    "pretest": "npm run lint",
-    "test": "jest",
+    "validate": "eslint . --ext .js,.ts",
+    "test": "npm run validate",
     "prepublishOnly": "npm run test",
     "prepare": "is-ci || husky install"
   },
@@ -31,20 +35,18 @@
     "index.js"
   ],
   "peerDependencies": {
-    "eslint": "^7.0.0"
+    "eslint": "^8.0.0"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.31.2",
-    "@typescript-eslint/parser": "^4.31.2",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
     "confusing-browser-globals": "^1.0.10",
     "eslint-config-ts-compat": "^1.0.2",
-    "typescript": "^4.4.3"
+    "typescript": "^4.4.4"
   },
   "devDependencies": {
-    "@types/jest": "^27.0.2",
-    "eslint": "^7.32.0",
+    "eslint": "^8.0.1",
     "husky": "^7.0.2",
-    "jest": "^27.2.2",
-    "lint-staged": "^11.1.2"
+    "lint-staged": "^11.2.3"
   }
 }

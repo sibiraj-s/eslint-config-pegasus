@@ -2,6 +2,10 @@
 
 All notable changes to this project are documented in this file.
 
+## v3.0.0 (2021-10-18)
+
+- support eslint v8 ([7ac1c6a](https://github.com/sibiraj-s/eslint-config-pegasus/commit/7ac1c6a))
+
 ## v2.1.1 (2021-09-27)
 
 - disable line-comment-position ([6291648](https://github.com/sibiraj-s/eslint-config-pegasus/commit/6291648))

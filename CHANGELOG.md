@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented in this file.
 
+## v3.0.1 (2021-10-28)
+
+- disable rule class-methods-use-this ([e721787](https://github.com/sibiraj-s/eslint-config-pegasus/commit/e721787))
+- update typescript-eslint to v5.2.0 ([c7e8098](https://github.com/sibiraj-s/eslint-config-pegasus/commit/c7e8098))
+
 ## v3.0.0 (2021-10-18)
 
 - support eslint v8 ([7ac1c6a](https://github.com/sibiraj-s/eslint-config-pegasus/commit/7ac1c6a))

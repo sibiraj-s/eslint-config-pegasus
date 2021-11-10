@@ -188,6 +188,10 @@ module.exports = {
     // https://eslint.org/docs/rules/no-octal
     'no-octal': 'error',
 
+    // disallow \8 and \9 escape sequences in string literals
+    // https://eslint.org/docs/rules/no-nonoctal-decimal-escape
+    'no-nonoctal-decimal-escape': 'error',
+
     // disallow octal escape sequences in string literals
     // https://eslint.org/docs/rules/no-octal-escape
     'no-octal-escape': 'error',

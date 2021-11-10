@@ -164,6 +164,10 @@ module.exports = {
     // https://eslint.org/docs/rules/no-unsafe-optional-chaining
     'no-unsafe-optional-chaining': ['error', { disallowArithmeticOperators: true }],
 
+    // disallow unused private class members
+    // https://eslint.org/docs/rules/no-unused-private-class-members
+    'no-unused-private-class-members': 'error',
+
     // disallow useless backreferences in regular expressions
     // https://eslint.org/docs/rules/no-useless-backreference
     'no-useless-backreference': 'error',

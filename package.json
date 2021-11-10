@@ -19,7 +19,7 @@
   "scripts": {
     "validate": "eslint-find-rules -u ./index.js",
     "lint": "eslint . --ext .js,.ts",
-    "test": "npm run validate",
+    "test": "npm run lint",
     "prepublishOnly": "npm run test",
     "prepare": "is-ci || husky install"
   },

@@ -39,19 +39,19 @@
     "eslint": "^8.0.0"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.3.1",
-    "@typescript-eslint/parser": "^5.3.1",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
     "confusing-browser-globals": "^1.0.10",
     "eslint-config-ts-compat": "^1.0.2",
-    "typescript": "^4.4.4"
+    "typescript": "^4.5.2"
   },
   "devDependencies": {
-    "@commitlint/cli": "^14.1.0",
+    "@commitlint/cli": "^15.0.0",
     "commitlint-config-non-conventional": "^1.0.0",
-    "eslint": "^8.2.0",
+    "eslint": "^8.3.0",
     "eslint-find-rules": "^4.0.0",
     "husky": "^7.0.4",
     "is-ci": "^3.0.1",
-    "lint-staged": "^11.2.6"
+    "lint-staged": "^12.1.2"
   }
 }

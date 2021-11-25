@@ -4,9 +4,9 @@ All notable changes to this project are documented in this file.
 
 ## v3.1.0 (2021-11-10)
 
-- Add rule no-unused-private-class-members ([4280173](https://github.com/sibiraj-s/eslint-config-pegasus/commit/4280173))
-- Add rule no-unsafe-optional-chaining ([39c2022](https://github.com/sibiraj-s/eslint-config-pegasus/commit/39c2022))
-- Add rule no-nonoctal-decimal-escape ([bb1c6a0](https://github.com/sibiraj-s/eslint-config-pegasus/commit/bb1c6a0))
+- add rule no-unused-private-class-members ([4280173](https://github.com/sibiraj-s/eslint-config-pegasus/commit/4280173))
+- add rule no-unsafe-optional-chaining ([39c2022](https://github.com/sibiraj-s/eslint-config-pegasus/commit/39c2022))
+- add rule no-nonoctal-decimal-escape ([bb1c6a0](https://github.com/sibiraj-s/eslint-config-pegasus/commit/bb1c6a0))
 
 ## v3.0.1 (2021-10-28)
 

@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented in this file.
 
+## v3.1.1 (2021-12-15)
+
+- update rule object-curly-newline ([e84cb84](https://github.com/sibiraj-s/eslint-config-pegasus/commit/e84cb84))
+- bump dependencies and devDependencies ([6e30266](https://github.com/sibiraj-s/eslint-config-pegasus/commit/6e30266))
+
 ## v3.1.0 (2021-11-10)
 
 - add rule no-unused-private-class-members ([4280173](https://github.com/sibiraj-s/eslint-config-pegasus/commit/4280173))

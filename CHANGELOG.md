@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented in this file.
 
+## v3.2.0 (2021-12-23)
+
+- add rule prefer-object-has-own ([7cc6f5a](https://github.com/sibiraj-s/eslint-config-pegasus/commit/7cc6f5a))
+- update rule object-curly-newline ([6993d43](https://github.com/sibiraj-s/eslint-config-pegasus/commit/6993d43))
+
 ## v3.1.1 (2021-12-15)
 
 - update rule object-curly-newline ([e84cb84](https://github.com/sibiraj-s/eslint-config-pegasus/commit/e84cb84))

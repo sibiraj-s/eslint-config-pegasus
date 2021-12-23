@@ -288,6 +288,10 @@ module.exports = {
     // https://eslint.org/docs/rules/prefer-named-capture-group
     'prefer-named-capture-group': 'error',
 
+    // prefer Object.hasOwn() over Object.prototype.hasOwnProperty.call()
+    // https://eslint.org/docs/rules/prefer-object-has-own
+    'prefer-object-has-own': 'error',
+
     // require using Error objects as Promise rejection reasons
     // https://eslint.org/docs/rules/prefer-promise-reject-errors
     'prefer-promise-reject-errors': 'error',

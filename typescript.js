@@ -75,7 +75,14 @@ module.exports = {
     // require or disallow an empty line between class members
     // https://eslint.org/docs/rules/lines-between-class-members
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/lines-between-class-members.md
-    '@typescript-eslint/lines-between-class-members': style.rules['lines-between-class-members'],
+    '@typescript-eslint/lines-between-class-members': [
+      style.rules['lines-between-class-members'][0],
+      style.rules['lines-between-class-members'][1],
+      {
+        ...style.rules['lines-between-class-members'][2],
+        exceptAfterOverload: true,
+      },
+    ],
 
     // disallow `Array` constructors
     // https://eslint.org/docs/rules/no-array-constructor

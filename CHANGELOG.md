@@ -2,6 +2,15 @@
 
 All notable changes to this project are documented in this file.
 
+## v3.3.0 (2022-02-23)
+
+- update rule object-curly-newline ([80543ff](https://github.com/sibiraj-s/eslint-config-pegasus/commit/80543ff))
+- update rule lines-between-class-members ([af0ce81](https://github.com/sibiraj-s/eslint-config-pegasus/commit/af0ce81))
+- update eslint to v8.9.0 ([8ee958d](https://github.com/sibiraj-s/eslint-config-pegasus/commit/8ee958d))
+- update eslint-find-rules to v4.1.0 ([31e54b8](https://github.com/sibiraj-s/eslint-config-pegasus/commit/31e54b8))
+- update typescript-eslint to v5.12.1 ([1dd33ba](https://github.com/sibiraj-s/eslint-config-pegasus/commit/1dd33ba))
+- update typescript to v4.5.5 ([4abdbcd](https://github.com/sibiraj-s/eslint-config-pegasus/commit/4abdbcd))
+
 ## v3.2.0 (2021-12-23)
 
 - add rule prefer-object-has-own ([7cc6f5a](https://github.com/sibiraj-s/eslint-config-pegasus/commit/7cc6f5a))

@@ -317,8 +317,8 @@ module.exports = {
     // enforce consistent line breaks inside braces
     // https://eslint.org/docs/rules/object-curly-newline
     'object-curly-newline': ['error', {
-      ObjectExpression: { minProperties: 4, multiline: true, consistent: true },
-      ObjectPattern: { minProperties: 4, multiline: true, consistent: true },
+      ObjectExpression: { minProperties: 6, multiline: true, consistent: true },
+      ObjectPattern: { minProperties: 6, multiline: true, consistent: true },
       ImportDeclaration: { minProperties: 6, multiline: true, consistent: true },
       ExportDeclaration: { minProperties: 4, multiline: true, consistent: true },
     }],

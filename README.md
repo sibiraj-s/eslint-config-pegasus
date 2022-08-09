@@ -62,3 +62,11 @@ extends:
   - pegasus
   - pegasus/react
 ```
+
+For Browsers
+
+```yml
+extends:
+  - pegasus
+  - pegasus/browser
+```

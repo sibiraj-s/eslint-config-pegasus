@@ -14,11 +14,12 @@
   "exports": {
     ".": "./index.js",
     "./node": "./node.js",
-    "./typescript": "./typescript.js"
+    "./typescript": "./typescript.js",
+    "./react": "./react.js"
   },
   "scripts": {
     "validate": "eslint-find-rules -u ./index.js",
-    "lint": "eslint . --ext .js,.ts",
+    "lint": "eslint . --ext .js,.ts,.jsx",
     "test": "npm run lint",
     "prepublishOnly": "npm run test",
     "prepare": "is-ci || husky install"
@@ -43,6 +44,8 @@
     "@typescript-eslint/parser": "^5.33.0",
     "confusing-browser-globals": "^1.0.11",
     "eslint-config-ts-compat": "^1.0.2",
+    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "typescript": "^4.7.4"
   },
   "devDependencies": {

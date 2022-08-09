@@ -54,3 +54,11 @@ extends:
   - pegasus
   - pegasus/typescript
 ```
+
+For React
+
+```yml
+extends:
+  - pegasus
+  - pegasus/react
+```

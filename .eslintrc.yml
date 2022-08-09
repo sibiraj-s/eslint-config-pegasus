@@ -12,3 +12,8 @@ overrides:
     parserOptions:
       project: tsconfig.json
       tsconfigRootDir: test/fixtures/ts
+
+  - files:
+      - 'test/fixtures/jsx/*.jsx'
+    extends:
+      - pegasus/react

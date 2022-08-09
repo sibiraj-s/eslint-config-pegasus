@@ -2,6 +2,14 @@
 
 All notable changes to this project are documented in this file.
 
+## v3.4.0 (2022-08-09)
+
+- add rule no-constant-binary-expression ([ad6a588](https://github.com/sibiraj-s/eslint-config-pegasus/commit/ad6a588))
+- add react config ([4db256b](https://github.com/sibiraj-s/eslint-config-pegasus/commit/4db256b))
+- add browser config ([9661a3d](https://github.com/sibiraj-s/eslint-config-pegasus/commit/9661a3d))
+- update typescript-eslint to v5.33.0 ([3e5ca04](https://github.com/sibiraj-s/eslint-config-pegasus/commit/3e5ca04))
+- update typescript to v4.7.4 ([3e5ca04](https://github.com/sibiraj-s/eslint-config-pegasus/commit/3e5ca04))
+
 ## v3.3.0 (2022-02-23)
 
 - update rule object-curly-newline ([80543ff](https://github.com/sibiraj-s/eslint-config-pegasus/commit/80543ff))

@@ -2,6 +2,10 @@
 
 All notable changes to this project are documented in this file.
 
+## v3.4.1 (2022-08-09)
+
+- add missing files to npm publish ([e31da02](https://github.com/sibiraj-s/eslint-config-pegasus/commit/e31da02))
+
 ## v3.4.0 (2022-08-09)
 
 - add rule no-constant-binary-expression ([ad6a588](https://github.com/sibiraj-s/eslint-config-pegasus/commit/ad6a588))

@@ -33,7 +33,9 @@
   "files": [
     "CHANGELOG.md",
     "rules",
+    "browser.js",
     "node.js",
+    "react.js",
     "typescript.js",
     "index.js"
   ],

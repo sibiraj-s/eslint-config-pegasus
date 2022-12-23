@@ -2,6 +2,14 @@
 
 All notable changes to this project are documented in this file.
 
+## v3.5.0 (2022-12-23)
+
+- add rule no-new-native-nonconstructor ([23d463f](https://github.com/sibiraj-s/eslint-config-pegasus/commit/23d463f))
+- add rule no-empty-static-block ([1eeac3e](https://github.com/sibiraj-s/eslint-config-pegasus/commit/1eeac3e))
+- add rule logical-assignment-operators ([cd24f3b](https://github.com/sibiraj-s/eslint-config-pegasus/commit/cd24f3b))
+- update typescript-eslint to v5.47.0 ([8c11504](https://github.com/sibiraj-s/eslint-config-pegasus/commit/8c11504))
+- update typescript to v4.9.4 ([8c11504](https://github.com/sibiraj-s/eslint-config-pegasus/commit/8c11504))
+
 ## v3.4.1 (2022-08-09)
 
 - add missing files to npm publish ([e31da02](https://github.com/sibiraj-s/eslint-config-pegasus/commit/e31da02))

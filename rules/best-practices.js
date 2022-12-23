@@ -48,6 +48,10 @@ module.exports = {
     // https://eslint.org/docs/rules/dot-notation
     'dot-notation': 'error',
 
+    // disallow empty static blocks
+    // https://eslint.org/docs/rules/no-empty-static-block
+    'no-empty-static-block': 'error',
+
     // require === and !==
     // https://eslint.org/docs/rules/eqeqeq
     'eqeqeq': ['error', 'always', { null: 'ignore' }],

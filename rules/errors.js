@@ -116,6 +116,10 @@ module.exports = {
     // https://eslint.org/docs/rules/no-misleading-character-class
     'no-misleading-character-class': 'error',
 
+    // disallow new operators with global non-constructor functions
+    // https://eslint.org/docs/rules/no-new-native-nonconstructor
+    'no-new-native-nonconstructor': 'error',
+
     // disallow calling global object properties as functions
     // https://eslint.org/docs/rules/no-obj-calls
     'no-obj-calls': 'error',

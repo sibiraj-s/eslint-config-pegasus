@@ -152,6 +152,12 @@ module.exports = {
     // https://eslint.org/docs/rules/lines-between-class-members
     'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
 
+    // require or disallow logical assignment logical operator shorthand
+    // https://eslint.org/docs/rules/logical-assignment-operators
+    'logical-assignment-operators': ['error', 'always', {
+      enforceForIfStatements: true,
+    }],
+
     // enforce a maximum depth that blocks can be nested
     // https://eslint.org/docs/rules/max-depth
     'max-depth': ['error', 4],

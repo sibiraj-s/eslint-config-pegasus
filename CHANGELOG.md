@@ -2,6 +2,12 @@
 
 All notable changes to this project are documented in this file.
 
+## v4.0.0 (2023-07-04)
+
+- update typescript to v5.1.6 ([dd0cc66](https://github.com/sibiraj-s/eslint-config-pegasus/commit/dd0cc66))
+- update typescript-eslint to v5.61.0 ([dd0cc66](https://github.com/sibiraj-s/eslint-config-pegasus/commit/dd0cc66))
+- add npm package provenance ([dfa47c0](https://github.com/sibiraj-s/eslint-config-pegasus/commit/dfa47c0))
+
 ## v3.5.0 (2022-12-23)
 
 - add rule no-new-native-nonconstructor ([23d463f](https://github.com/sibiraj-s/eslint-config-pegasus/commit/23d463f))

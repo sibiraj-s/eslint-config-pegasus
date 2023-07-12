@@ -40,7 +40,7 @@ module.exports = {
 
     // disallow unused variables
     // https://eslint.org/docs/rules/no-unused-vars
-    'no-unused-vars': 'error',
+    'no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
 
     // disallow early use
     // https://eslint.org/docs/rules/no-use-before-define

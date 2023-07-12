@@ -8,7 +8,7 @@ overrides:
   - files:
       - 'test/fixtures/ts/*.ts'
     extends:
-      - pegasus/typescript
+      - pegasus/typescript-strict
     parserOptions:
       project: tsconfig.json
       tsconfigRootDir: test/fixtures/ts

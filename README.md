@@ -22,13 +22,13 @@
 
 > Eslint shareable config with personalized defaults.
 
-### Install
+## Install
 
 ```bash
 npm install eslint eslint-config-pegasus --save-dev
 ```
 
-### Usage
+## Usage
 
 See [Eslint's Shareable Configs](https://eslint.org/docs/developer-guide/shareable-configs) for more information.
 
@@ -39,7 +39,7 @@ extends:
 
 **Additional rules**
 
-For Node.js
+### Node.js
 
 ```yml
 extends:
@@ -47,15 +47,48 @@ extends:
   - pegasus/node
 ```
 
-For Typescript
+### Typescript
 
 ```yml
 extends:
   - pegasus
-  - pegasus/typescript
+  - pegasus/typescript # base config
 ```
 
-For React
+Or Use Recommended Config
+
+```yml
+extends:
+  - pegasus
+  - pegasus/typescript-recommended
+```
+
+This extendes [typescript-eslint/recommended](https://typescript-eslint.io/linting/configs/#recommended)
+with [typechecking](https://typescript-eslint.io/linting/configs/#recommended-type-checked)
+
+Or Use Stylistic Config
+
+```yml
+extends:
+  - pegasus
+  - pegasus/typescript-recommended
+  - pegasus/typescript-stylistic
+```
+
+This extendes [typescript-eslint/stylistic](https://typescript-eslint.io/linting/configs/#stylistic)
+with [typechecking](https://typescript-eslint.io/linting/configs/#stylistic-type-checked)
+
+Or Use Strict Config
+
+```yml
+extends:
+  - pegasus
+  - pegasus/typescript-strict
+```
+
+`typescript-strict` includes all base, recommended and stylistic configuration
+
+### React
 
 ```yml
 extends:
@@ -63,7 +96,7 @@ extends:
   - pegasus/react
 ```
 
-For Browsers
+### Browsers
 
 ```yml
 extends:

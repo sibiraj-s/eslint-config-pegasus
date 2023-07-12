@@ -16,7 +16,10 @@
     "./browser": "./browser.js",
     "./node": "./node.js",
     "./react": "./react.js",
-    "./typescript": "./typescript.js"
+    "./typescript": "./typescript.js",
+    "./typescript-recommended": "./typescript-recommended.js",
+    "./typescript-stylistic": "./typescript-stylistic.js",
+    "./typescript-strict": "./typescript-strict.js"
   },
   "scripts": {
     "validate": "eslint-find-rules -u ./index.js",

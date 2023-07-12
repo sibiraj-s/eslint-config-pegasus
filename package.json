@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-pegasus",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "Eslint shareable config with personalized defaults",
   "author": "sibiraj-s",
   "license": "MIT",
@@ -40,6 +40,9 @@
     "node.js",
     "react.js",
     "typescript.js",
+    "typescript-recommended.js",
+    "typescript-stylistic.js",
+    "typescript-strict.js",
     "index.js"
   ],
   "peerDependencies": {

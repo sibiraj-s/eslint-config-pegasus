@@ -2,6 +2,12 @@
 
 All notable changes to this project are documented in this file.
 
+## v5.0.0 (2023-07-12)
+
+- update typescript-eslint to v6.0.0 ([dc967b9](https://github.com/sibiraj-s/eslint-config-pegasus/commit/dc967b9))
+- update rule no-unused-vars ([b8032a8](https://github.com/sibiraj-s/eslint-config-pegasus/commit/b8032a8))
+- add typescript recommended, stylistic, strict configs ([2c1bd48](https://github.com/sibiraj-s/eslint-config-pegasus/commit/2c1bd48))
+
 ## v4.0.0 (2023-07-04)
 
 - update typescript to v5.1.6 ([dd0cc66](https://github.com/sibiraj-s/eslint-config-pegasus/commit/dd0cc66))

@@ -8,6 +8,7 @@ on:
 
 env:
   NODE_VERSION: 18
+  HUSKY: 0
 
 permissions:
   contents: read

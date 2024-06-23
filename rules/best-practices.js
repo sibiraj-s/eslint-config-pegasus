@@ -52,6 +52,10 @@ module.exports = {
     // https://eslint.org/docs/rules/no-empty-static-block
     'no-empty-static-block': 'error',
 
+    // disallow calls to the Object constructor without an argument
+    // https://eslint.org/docs/latest/rules/no-object-constructor
+    'no-object-constructor': 'error',
+
     // require === and !==
     // https://eslint.org/docs/rules/eqeqeq
     'eqeqeq': ['error', 'always', { null: 'ignore' }],

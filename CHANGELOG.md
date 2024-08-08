@@ -2,6 +2,10 @@
 
 All notable changes to this project are documented in this file.
 
+## v6.0.0-beta.2 (2024-08-08)
+
+- export missing utils directory ([9ba18b7](https://github.com/sibiraj-s/eslint-config-pegasus/commit/9ba18b7))
+
 ## v6.0.0-beta.1 (2024-08-08)
 
 - publish missing src directory to npm ([75b866c](https://github.com/sibiraj-s/eslint-config-pegasus/commit/75b866c))

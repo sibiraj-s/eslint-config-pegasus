@@ -1,16 +1,13 @@
-module.exports = {
-  plugins: [
-  ],
-  extends: [
-    'plugin:react/recommended',
-    'plugin:react/jsx-runtime',
-    'plugin:react-hooks/recommended',
-  ],
-  rules: {
-  },
-  settings: {
-    react: {
-      version: 'detect',
+import react from '@eslint-react/eslint-plugin';
+
+export default {
+  name: 'pegasus/react',
+  languageOptions: {
+    parserOptions: {
+      ecmaFeatures: {
+        jsx: true,
+      },
     },
   },
+  ...react.configs.recommended,
 };

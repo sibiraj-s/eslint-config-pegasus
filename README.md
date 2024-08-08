@@ -30,76 +30,103 @@ npm install eslint eslint-config-pegasus --save-dev
 
 ## Usage
 
-See [Eslint's Shareable Configs](https://eslint.org/docs/developer-guide/shareable-configs) for more information.
+See [Eslint's Shareable Configs](https://eslint.org/docs/extend/shareable-configs) for more information.
 
-```yml
-extends:
-  - pegasus
+```js
+import pegasus from 'eslint-config-pegasus';
+
+export default [
+  pegasus.configs.default, //
+];
 ```
 
 **Additional rules**
 
 ### Node.js
 
-```yml
-extends:
-  - pegasus
-  - pegasus/node
+```js
+import pegasus from 'eslint-config-pegasus';
+
+export default [
+  pegasus.configs.default, //
+  pegasus.configs.node,
+];
 ```
 
 ### Typescript
 
-```yml
-extends:
-  - pegasus
-  - pegasus/typescript # base config
+```js
+import pegasus from 'eslint-config-pegasus';
+
+export default [
+  pegasus.configs.default,
+  pegasus.configs.node,
+  ...pegasus.tsConfig({
+    files: ['*.ts'],
+    extends: pegasus.configs.typescriptRecommended,
+  }),
+];
 ```
 
 Or Use Recommended Config
 
-```yml
-extends:
-  - pegasus
-  - pegasus/typescript-recommended
+```ts
+import pegasus from 'eslint-config-pegasus';
+
+export default [
+  pegasus.configs.default,
+  pegasus.configs.node,
+  ...pegasus.tsConfig({
+    files: ['*.ts'],
+    extends: pegasus.configs.typescriptRecommended,
+  }),
+];
 ```
 
 This extendes [typescript-eslint/recommended](https://typescript-eslint.io/linting/configs/#recommended)
 with [typechecking](https://typescript-eslint.io/linting/configs/#recommended-type-checked)
-
-Or Use Stylistic Config
-
-```yml
-extends:
-  - pegasus
-  - pegasus/typescript-recommended
-  - pegasus/typescript-stylistic
-```
 
 This extendes [typescript-eslint/stylistic](https://typescript-eslint.io/linting/configs/#stylistic)
 with [typechecking](https://typescript-eslint.io/linting/configs/#stylistic-type-checked)
 
 Or Use Strict Config
 
-```yml
-extends:
-  - pegasus
-  - pegasus/typescript-strict
+```js
+import pegasus from 'eslint-config-pegasus';
+
+export default [
+  pegasus.configs.default,
+  pegasus.configs.node,
+  ...pegasus.tsConfig({
+    files: ['*.ts'],
+    extends: pegasus.configs.typescriptStrict,
+  }),
+];
 ```
 
 `typescript-strict` includes all base, recommended and stylistic configuration
 
 ### React
 
-```yml
-extends:
-  - pegasus
-  - pegasus/react
+```js
+import pegasus from './index.js';
+
+export default [
+  pegasus.configs.default,
+  {
+    ...pegasus.configs.react,
+    files: ['test/fixtures/jsx/*.jsx'],
+  },
+];
 ```
 
 ### Browsers
 
-```yml
-extends:
-  - pegasus
-  - pegasus/browser
+```js
+import pegasus from 'eslint-config-pegasus';
+
+export default [
+  pegasus.configs.default, //
+  pegasus.configs.browser,
+];
 ```

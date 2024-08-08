@@ -1,7 +1,7 @@
-module.exports = {
-  extends: [
-    'plugin:@typescript-eslint/stylistic',
-    'plugin:@typescript-eslint/stylistic-type-checked',
-    require.resolve('./typescript'),
-  ],
-};
+import tseslint from 'typescript-eslint';
+import typescript from './typescript.js';
+
+export default tseslint.config(
+  ...tseslint.configs.recommendedTypeChecked,
+  ...typescript,
+);

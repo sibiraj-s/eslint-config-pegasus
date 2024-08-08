@@ -1,6 +1,6 @@
-const restrictedGlobals = require('confusing-browser-globals');
+import restrictedGlobals from 'confusing-browser-globals';
 
-module.exports = {
+export default {
   rules: {
     // require or disallow initialization in variable declarations
     // https://eslint.org/docs/rules/init-declarations

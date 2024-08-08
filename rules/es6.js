@@ -1,10 +1,10 @@
-module.exports = {
-  env: {
-    es6: true,
-  },
-  parserOptions: {
-    ecmaVersion: 2020,
+import globals from 'globals';
+
+export default {
+  languageOptions: {
+    ecmaVersion: 'latest',
     sourceType: 'module',
+    globals: globals.es2015,
   },
   rules: {
     // require braces around arrow function bodies

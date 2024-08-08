@@ -2,6 +2,13 @@
 
 All notable changes to this project are documented in this file.
 
+## v6.0.0-beta.0 (2024-08-08)
+
+- update eslint to v9 ([c60511a](https://github.com/sibiraj-s/eslint-config-pegasus/commit/c60511a))
+- update typescript-eslint to v8 ([c60511a](https://github.com/sibiraj-s/eslint-config-pegasus/commit/c60511a))
+- replace deprecated style rules with eslint-stylistic ([ae62b8a](https://github.com/sibiraj-s/eslint-config-pegasus/commit/ae62b8a))
+- **(Breaking)** Migrate to flat config ([c60511a](https://github.com/sibiraj-s/eslint-config-pegasus/commit/c60511a))
+
 ## v5.0.0 (2023-07-12)
 
 - update typescript-eslint to v6.0.0 ([dc967b9](https://github.com/sibiraj-s/eslint-config-pegasus/commit/dc967b9))

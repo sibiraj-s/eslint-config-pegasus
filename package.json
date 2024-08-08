@@ -26,14 +26,7 @@
   ],
   "files": [
     "CHANGELOG.md",
-    "rules",
-    "browser.js",
-    "node.js",
-    "react.js",
-    "typescript.js",
-    "typescript-recommended.js",
-    "typescript-stylistic.js",
-    "typescript-strict.js",
+    "src",
     "index.js"
   ],
   "peerDependencies": {

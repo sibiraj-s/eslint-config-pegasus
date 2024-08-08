@@ -64,7 +64,7 @@ export default [
   pegasus.configs.node,
   ...pegasus.tsConfig({
     files: ['*.ts'],
-    extends: pegasus.configs.typescriptRecommended,
+    extends: pegasus.configs.typescript,
   }),
 ];
 ```

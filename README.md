@@ -87,9 +87,6 @@ export default [
 This extendes [typescript-eslint/recommended](https://typescript-eslint.io/linting/configs/#recommended)
 with [typechecking](https://typescript-eslint.io/linting/configs/#recommended-type-checked)
 
-This extendes [typescript-eslint/stylistic](https://typescript-eslint.io/linting/configs/#stylistic)
-with [typechecking](https://typescript-eslint.io/linting/configs/#stylistic-type-checked)
-
 Or Use Strict Config
 
 ```js

@@ -36,7 +36,8 @@ See [Eslint's Shareable Configs](https://eslint.org/docs/extend/shareable-config
 import pegasus from 'eslint-config-pegasus';
 
 export default [
-  pegasus.configs.default, //
+  pegasus.configs.default, // core config
+  pegasus.configs.stylistic, // stylistic config
 ];
 ```
 
@@ -48,7 +49,7 @@ export default [
 import pegasus from 'eslint-config-pegasus';
 
 export default [
-  pegasus.configs.default, //
+  pegasus.configs.default, // core
   pegasus.configs.node,
 ];
 ```
@@ -126,7 +127,7 @@ export default [
 import pegasus from 'eslint-config-pegasus';
 
 export default [
-  pegasus.configs.default, //
+  pegasus.configs.default, // core config
   pegasus.configs.browser,
 ];
 ```

@@ -5,7 +5,7 @@ import strict from './rules/strict.js';
 import style from './rules/style.js';
 import variables from './rules/variables.js';
 
-import mergeConfigs from './utils/merge-configs.js';
+import mergeConfigs from '../utils/merge-configs.js';
 
 const flatConfig = [
   bestPractices,

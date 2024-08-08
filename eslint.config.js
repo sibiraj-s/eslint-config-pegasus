@@ -2,6 +2,7 @@ import pegasus from './index.js';
 
 export default [
   pegasus.configs.default,
+  pegasus.configs.stylistic,
   pegasus.configs.node,
   {
     ...pegasus.configs.react,

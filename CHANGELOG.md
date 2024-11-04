@@ -2,6 +2,10 @@
 
 All notable changes to this project are documented in this file.
 
+## v6.0.1 (2024-11-04)
+
+- export types ([8be485f](https://github.com/sibiraj-s/eslint-config-pegasus/commit/8be485f))
+
 ## v6.0.0 (2024-11-04)
 
 - use official react plugins ([1287d19](https://github.com/sibiraj-s/eslint-config-pegasus/commit/1287d19))

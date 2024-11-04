@@ -1,4 +1,5 @@
-import react from '@eslint-react/eslint-plugin';
+import react from 'eslint-plugin-react';
+import reactHooks from 'eslint-plugin-react-hooks';
 
 export default {
   name: 'pegasus/react',
@@ -7,7 +8,21 @@ export default {
       ecmaFeatures: {
         jsx: true,
       },
+      jsxPragma: null,
     },
   },
-  ...react.configs.recommended,
+  plugins: {
+    react,
+    ...reactHooks.configs.recommended.plugins,
+  },
+  rules: {
+    ...react.configs.recommended.rules,
+    ...react.configs['jsx-runtime'].rules,
+    ...reactHooks.configs.recommended.rules,
+  },
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
 };

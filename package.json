@@ -4,7 +4,7 @@
   "description": "Eslint shareable config with personalized defaults",
   "author": "sibiraj-s",
   "license": "MIT",
-  "repository": "https://github.com/sibiraj-s/eslint-config-pegasus.git",
+  "repository": "github:sibiraj-s/eslint-config-pegasus",
   "bugs": "https://github.com/sibiraj-s/eslint-config-pegasus/issues",
   "homepage": "https://github.com/sibiraj-s/eslint-config-pegasus#readme",
   "engines": {

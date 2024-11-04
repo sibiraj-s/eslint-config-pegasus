@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented in this file.
 
+## v6.0.0 (2024-11-04)
+
+- use official react plugins ([1287d19](https://github.com/sibiraj-s/eslint-config-pegasus/commit/1287d19))
+- bump dependencies and devDependencies ([1287d19](https://github.com/sibiraj-s/eslint-config-pegasus/commit/1287d19))
+
 ## v6.0.0-beta.2 (2024-08-08)
 
 - export missing utils directory ([9ba18b7](https://github.com/sibiraj-s/eslint-config-pegasus/commit/9ba18b7))

@@ -7,6 +7,7 @@ export default {
   },
   rules: {
     ...stylistic.configs['recommended-flat'].rules,
+
     // enforce line breaks after opening and before closing array
     // https://eslint.style/rules/default/array-bracket-newline
     '@stylistic/array-bracket-newline': ['error', 'consistent'],

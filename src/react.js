@@ -13,7 +13,7 @@ export default {
   },
   plugins: {
     react,
-    ...reactHooks.configs.recommended.plugins,
+    'react-hooks': reactHooks,
   },
   rules: {
     ...react.configs.recommended.rules,

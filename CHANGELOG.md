@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented in this file.
 
+## v6.0.2 (2024-11-05)
+
+- update ts file matchers and parser options ([a1ca21b](https://github.com/sibiraj-s/eslint-config-pegasus/commit/a1ca21b))
+- improve README ([7dc961a](https://github.com/sibiraj-s/eslint-config-pegasus/commit/7dc961a))
+
 ## v6.0.1 (2024-11-04)
 
 - export types ([8be485f](https://github.com/sibiraj-s/eslint-config-pegasus/commit/8be485f))

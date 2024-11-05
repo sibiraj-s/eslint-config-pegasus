@@ -8,12 +8,14 @@ import style from './rules/style.js';
 import variables from './rules/variables.js';
 
 export default tsEslint.config({
+  files: ['**/*.ts', '**/*.mts', '**/*.cts'],
   name: 'pegasus/typescript',
   extends: [
     tscompat,
   ],
   languageOptions: {
     parser: tsEslint.parser,
+    sourceType: 'module',
     parserOptions: {
       projectService: true,
     },

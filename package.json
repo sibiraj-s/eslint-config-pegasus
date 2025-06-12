@@ -8,7 +8,7 @@
   "bugs": "https://github.com/sibiraj-s/eslint-config-pegasus/issues",
   "homepage": "https://github.com/sibiraj-s/eslint-config-pegasus#readme",
   "engines": {
-    "node": ">=16"
+    "node": ">=20"
   },
   "type": "module",
   "main": "./index.js",
